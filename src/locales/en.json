@@ -903,5 +903,12 @@
   "CTA": {
     "title": "Ready to Get Started?",
     "description": "Start using Morning AI now and experience the new realm of intelligent development."
+  },
+  "DemoBanner": {
+    "title": "Explore the User Dashboard · Live Demo of Morning Ai",
+    "description": "Explore the User Dashboard"
+  },
+  "DemoBadge": {
+    "title": "Contact Us"
   }
 }

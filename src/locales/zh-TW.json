@@ -848,5 +848,12 @@
   "CTA": {
     "title": "準備開始了嗎？",
     "description": "立即開始使用 Morning AI，體驗智慧開發的新境界。"
+  },
+  "DemoBanner": {
+    "title": "探索用戶儀表板 · Morning Ai 的現場演示",
+    "description": "探索用戶儀表板"
+  },
+  "DemoBadge": {
+    "title": "聯絡客服"
   }
 }

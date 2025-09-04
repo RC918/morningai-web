@@ -800,5 +800,12 @@
   "CTA": {
     "title": "准备开始了吗？",
     "description": "立即开始使用 Morning AI，体验智能开发的新境界。"
+  },
+  "DemoBanner": {
+    "title": "探索用户仪表板 · Morning Ai 的现场演示",
+    "description": "探索用户仪表板"
+  },
+  "DemoBadge": {
+    "title": "联系客服"
   }
 }
