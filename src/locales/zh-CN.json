@@ -1,0 +1,736 @@
+{
+  "LANG_CHECK": "简中 OK",
+  "common": {
+    "title": "强大功能，无限可能",
+    "description": "探索 Morning AI 的完整功能套件，从智能设计系统到企业级解决方案，我们提供您成功所需的一切工具。",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "previous": "上一页",
+    "next": "下一页"
+  },
+  "navigation": {
+    "home": "首页",
+    "components": "组件库",
+    "documentation": "文档",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "features": "功能特色",
+    "pricing": "价格方案",
+    "faq": "FAQ",
+    "demo": "Demo",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统",
+    "switchTheme": "切换主题"
+  },
+  "language": {
+    "current": "简体中文",
+    "switch": "切换语言",
+    "switchLanguage": "切换语言"
+  },
+  "home": {
+    "title": "Morning AI 设计系统（简体）",
+    "subtitle": "企业级 React 组件库",
+    "description": "支持完整 RWD + A11y + 设计系统整合。包含 Button、Input、Navigation 等 16+ 响应式组件。",
+    "viewComponents": "查看组件库",
+    "viewDocumentation": "查看文档",
+    "hero": {
+      "label": "AI 驱动设计 🚀",
+      "title": "我们创造智能设计与 AI 工具",
+      "subtitle": "企业级设计系统与组件库",
+      "description": "Morning AI 是一个位于台湾的设计系统平台。我们帮助初创公司和财富 500 强企业在屏幕另一端取悦人们。",
+      "cta": "开始使用",
+      "learnMore": "了解更多"
+    },
+    "features": {
+      "title": "为什么选择 Morning AI",
+      "subtitle": "构建现代应用程序所需的一切",
+      "accessibility": {
+        "title": "无障碍优先",
+        "description": "符合 WCAG 2.1 AA 标准的组件，具备完整的键盘导航和屏幕阅读器支持。"
+      },
+      "responsive": {
+        "title": "响应式设计",
+        "description": "移动优先的设计方法，在 375px、768px 和 1280px 断点完美适配。"
+      },
+      "performance": {
+        "title": "高性能",
+        "description": "优化的打包大小和运行时性能。首次加载 JS 低于 140KB。"
+      },
+      "typescript": {
+        "title": "TypeScript 就绪",
+        "description": "100% TypeScript 支持，具备完整的类型定义和 IntelliSense。"
+      },
+      "theming": {
+        "title": "高级主题系统",
+        "description": "支持浅色/深色模式，使用 CSS 自定义属性和设计令牌。"
+      },
+      "developer": {
+        "title": "开发者体验",
+        "description": "优秀的文档、Storybook 整合和全面的测试。"
+      }
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "加入数千名开发者，使用 Morning AI 设计系统构建令人惊艳的产品。",
+      "button": "立即开始构建"
+    }
+  },
+  "components": {
+    "title": "组件库展示",
+    "subtitle": "Morning AI 设计系统核心组件。包含 Button、Input、Navigation 等 16+ 响应式组件。",
+    "description": "探索我们完整的 UI 组件库，每个组件都经过精心设计，支持响应式布局和无障碍性标准。",
+    "basic": "基础组件",
+    "advanced": "高级组件",
+    "button": {
+      "title": "Button 组件",
+      "variants": "变体",
+      "sizes": "尺寸",
+      "states": "状态",
+      "fullWidth": "全宽按钮"
+    },
+    "input": {
+      "title": "Input 组件",
+      "basic": "基本输入框",
+      "withIcon": "带图标输入框",
+      "sizes": "输入框尺寸",
+      "states": "输入框状态",
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "nameHelper": "这是说明文字",
+      "email": "电子邮箱",
+      "emailPlaceholder": "example@email.com",
+      "smallPlaceholder": "小型输入框",
+      "mediumPlaceholder": "中型输入框",
+      "largePlaceholder": "大型输入框",
+      "normalState": "正常状态",
+      "successState": "成功状态",
+      "errorState": "错误状态",
+      "loadingState": "加载中状态",
+      "disabledState": "禁用状态"
+    },
+    "navigation": {
+      "title": "Navigation 组件",
+      "description": "响应式导航，具备主题切换器和语言选择器"
+    },
+    "tabs": {
+      "title": "Tabs 组件",
+      "tab1": "标签 1",
+      "tab2": "标签 2",
+      "tab3": "标签 3",
+      "content1": "标签 1 的内容",
+      "content2": "标签 2 的内容",
+      "content3": "标签 3 的内容"
+    },
+    "modal": {
+      "title": "Modal 组件",
+      "openModal": "打开弹窗",
+      "modalTitle": "弹窗标题",
+      "modalContent": "这是弹窗内容。您可以在这里放置任何内容。",
+      "closeModal": "关闭弹窗"
+    },
+    "toast": {
+      "title": "Toast 组件",
+      "showSuccess": "显示成功提示",
+      "showError": "显示错误提示",
+      "showWarning": "显示警告提示",
+      "showInfo": "显示信息提示",
+      "successMessage": "操作成功完成！",
+      "errorMessage": "发生错误，请重试。",
+      "warningMessage": "请检查您的输入。",
+      "infoMessage": "这是一则信息消息。"
+    },
+    "dropdown": {
+      "title": "Dropdown 组件",
+      "selectOption": "选择选项",
+      "option1": "选项 1",
+      "option2": "选项 2",
+      "option3": "选项 3"
+    },
+    "tooltip": {
+      "title": "Tooltip 组件",
+      "hoverMe": "鼠标悬停",
+      "tooltipText": "这是工具提示"
+    },
+    "table": {
+      "title": "Table 组件",
+      "name": "姓名",
+      "email": "电子邮箱",
+      "role": "角色",
+      "status": "状态",
+      "actions": "操作",
+      "noData": "无可用数据"
+    },
+    "pagination": {
+      "title": "Pagination 组件",
+      "page": "第",
+      "of": "页，共",
+      "itemsPerPage": "项目每页"
+    },
+    "card": {
+      "title": "Card 组件",
+      "cardTitle": "卡片标题",
+      "cardSubtitle": "卡片副标题",
+      "cardContent": "这是卡片内容区域，您可以在此放置任何信息。",
+      "action": "操作"
+    },
+    "badge": {
+      "title": "Badge 组件",
+      "default": "默认",
+      "primary": "主要",
+      "success": "成功",
+      "warning": "警告",
+      "error": "错误"
+    },
+    "avatar": {
+      "title": "Avatar 组件",
+      "user": "用户"
+    },
+    "skeleton": {
+      "title": "Skeleton 组件",
+      "loading": "加载内容中..."
+    }
+  },
+  "stats": {
+    "coreComponents": "核心组件",
+    "componentStates": "组件状态",
+    "responsiveBreakpoints": "响应式断点",
+    "typescript": "TypeScript"
+  },
+  "footer": {
+    "copyright": "© 2025 Morning AI. 使用 Next.js 15 + Tailwind CSS 构建。"
+  },
+  "seo": {
+    "siteName": "Morning AI - 智能 SaaS 平台",
+    "defaultTitle": "Morning AI - 智能 SaaS 平台",
+    "defaultDescription": "Morning AI 提供先进的人工智能解决方案，帮助企业提升效率和创新能力。体验我们的智能设计系统和组件库。",
+    "defaultKeywords": "Morning AI, 人工智能, SaaS, 设计系统, 组件库, 智能平台, AI 解决方案"
+  },
+  "cta": {
+    "readyToStart": {
+      "title": "准备开始了吗？",
+      "description": "立即开始使用 Morning AI，体验智能化开发的全新境界。",
+      "primary": "Start Free Trial",
+      "secondary": "Contact Sales"
+    },
+    "getStarted": "立即开始",
+    "learnMore": "了解更多",
+    "viewDemo": "查看演示",
+    "tryDemo": "试用演示",
+    "signUp": "注册账号",
+    "contactSales": "联系销售",
+    "viewAllFeatures": "查看所有功能",
+    "viewAllPricing": "查看所有定价",
+    "viewPricing": "查看定价",
+    "contactUs": "联系我们",
+    "tryFree": "Try Free"
+  },
+  "features": {
+    "title": "强大功能，无限可能",
+    "subtitle": "探索 Morning AI 的完整功能套件，从智能设计系统到企业级解决方案，我们提供您成功所需的一切工具。",
+    "hero": {
+      "title": "强大功能，无限可能",
+      "description": "探索 Morning AI 的完整功能套件，从智能设计系统到企业级解决方案，我们提供您成功所需的一切工具。"
+    },
+    "aiDesign": {
+      "title": "AI 智能设计",
+      "description": "运用最先进的人工智能技术，自动化您的设计工作流程，提升创作效率。"
+    },
+    "componentLibrary": {
+      "title": "组件库系统",
+      "description": "完整的 UI 组件库，每个组件都经过精心设计，支持响应式布局。"
+    },
+    "workflow": {
+      "title": "开发流程",
+      "description": "优化的开发工作流程，从设计到部署的一站式解决方案。"
+    },
+    "aiPowered": {
+      "title": "AI 驱动的智能系统",
+      "description": "运用最先进的人工智能技术，自动化您的工作流程，提升团队效率。",
+      "benefit1": "智能代码生成，减少 80% 开发时间",
+      "benefit2": "自动化测试与质量保证",
+      "benefit3": "智能错误检测与修复建议"
+    },
+    "designSystem": {
+      "title": "企业级设计系统",
+      "description": "统一的设计语言与组件库，确保品牌一致性与开发效率。",
+      "benefit1": "16+ 响应式 UI 组件",
+      "benefit2": "完整的设计令牌系统",
+      "benefit3": "支持浅色/深色主题切换"
+    },
+    "enterpriseReady": {
+      "title": "企业级安全与扩展",
+      "description": "符合企业标准的安全性、可靠性与扩展性，支持大规模部署。",
+      "benefit1": "SOC 2 Type II 合规认证",
+      "benefit2": "99.9% 服务可用性保证",
+      "benefit3": "支持单点登录 (SSO) 集成"
+    },
+    "developerExperience": {
+      "title": "卓越的开发者体验",
+      "description": "为开发者量身打造的工具与文档，让您专注于创造价值。",
+      "benefit1": "完整的 TypeScript 支持",
+      "benefit2": "丰富的 API 文档与示例",
+      "benefit3": "活跃的社区与技术支持"
+    },
+    "cta": {
+      "title": "准备体验这些强大功能了吗？",
+      "description": "立即开始使用 Morning AI，体验智能化开发的全新境界。",
+      "viewAll": "View All Features"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "选择适合您的方案",
+      "description": "从个人开发者到大型企业，我们提供灵活的定价方案，满足不同规模的需求。"
+    },
+    "popular": "最受欢迎",
+    "starter": {
+      "name": "入门方案",
+      "price": "免费",
+      "period": "永久免费",
+      "description": "适合个人开发者和小型项目",
+      "feature1": "基础 UI 组件库",
+      "feature2": "社区技术支持",
+      "feature3": "基本文档访问",
+      "feature4": "最多 3 个项目",
+      "cta": "立即开始"
+    },
+    "free": {
+      "name": "免费方案",
+      "title": "免费方案",
+      "price": "免费",
+      "description": "适合个人开发者和小型项目",
+      "feature1": "基础 UI 组件库",
+      "feature2": "社区技术支持",
+      "feature3": "基本文档访问",
+      "feature4": "最多 3 个项目",
+      "period": "",
+      "features": {
+        "1": "Basic AI design tools",
+        "2": "5 projects",
+        "3": "Community support",
+        "4": "Basic templates"
+      },
+      "cta": "Get Started"
+    },
+    "professional": {
+      "name": "专业方案",
+      "price": "¥ 99",
+      "period": "每月",
+      "description": "适合专业开发者和成长中的团队",
+      "feature1": "完整 UI 组件库",
+      "feature2": "进阶设计系统",
+      "feature3": "优先技术支持",
+      "feature4": "无限项目数量",
+      "feature5": "自定义主题与品牌",
+      "cta": "立即开始"
+    },
+    "pro": {
+      "name": "专业方案",
+      "title": "专业方案",
+      "price": "¥ 99",
+      "period": "每月",
+      "description": "适合专业开发者和成长中的团队",
+      "feature1": "完整 UI 组件库",
+      "feature2": "进阶设计系统",
+      "feature3": "优先技术支持",
+      "feature4": "无限项目数量",
+      "feature5": "自定义主题与品牌",
+      "popular": "Most Popular",
+      "features": {
+        "1": "Advanced AI design tools",
+        "2": "Unlimited projects",
+        "3": "Priority support",
+        "4": "Premium templates",
+        "5": "Team collaboration",
+        "6": "Advanced analytics"
+      },
+      "cta": "Get Started"
+    },
+    "enterprise": {
+      "name": "企业方案",
+      "title": "企业方案",
+      "price": "定制化",
+      "period": "联系销售",
+      "description": "适合大型企业和组织",
+      "feature1": "所有专业功能",
+      "feature2": "专属客户成功经理",
+      "feature3": "SLA 服务保证",
+      "feature4": "定制化开发服务",
+      "feature5": "企业级安全与合规",
+      "feature6": "白标解决方案",
+      "cta": "联系销售",
+      "features": {
+        "1": "Custom AI solutions",
+        "2": "Unlimited everything",
+        "3": "24/7 dedicated support",
+        "4": "Custom integrations",
+        "5": "Advanced security",
+        "6": "Training & onboarding"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "找到您需要的答案，或联系我们的支持团队。"
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "选择最适合您需求的方案，立即开始使用 Morning AI。"
+    },
+    "title": "Choose the Right Plan for You",
+    "subtitle": "From individual developers to large enterprises, we offer flexible pricing plans to meet different scale requirements."
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "找到您需要的答案，或联系我们的支持团队。",
+    "hero": {
+      "title": "常见问题",
+      "description": "找到您需要的答案，或联系我们的支持团队获得更多帮助。"
+    },
+    "general": {
+      "title": "一般问题",
+      "q1": {
+        "question": "Morning AI 适合什么类型的项目？",
+        "answer": "Morning AI 适合各种规模的 Web 应用程序开发，从个人博客到大型企业应用都能受益于我们的设计系统和 AI 功能。"
+      },
+      "q2": {
+        "question": "是否支持定制化设计？",
+        "answer": "是的，我们的设计系统完全支持定制化。您可以调整颜色、字体、间距等设计令牌，打造符合品牌形象的独特界面。"
+      },
+      "q3": {
+        "question": "可以免费试用吗？",
+        "answer": "当然可以！我们提供永久免费方案，您也可以申请专业方案的 14 天免费试用，无需信用卡信息。"
+      },
+      "q4": {
+        "question": "What kind of support do you offer?",
+        "answer": "We provide comprehensive support including documentation, tutorials, community forums, and direct support for Pro and Enterprise users."
+      },
+      "q5": {
+        "question": "Is there a free trial available?",
+        "answer": "Yes, we offer a free plan with basic features. You can also try our Pro features with a 14-day free trial."
+      },
+      "q6": {
+        "question": "How secure is my data?",
+        "answer": "We take security seriously with enterprise-grade encryption, regular security audits, and compliance with industry standards."
+      },
+      "q7": {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period."
+      },
+      "q8": {
+        "question": "Do you offer custom solutions for enterprises?",
+        "answer": "Yes, we provide tailored solutions for large organizations including custom integrations, dedicated support, and specialized training."
+      },
+      "q9": {
+        "question": "How often do you release new features?",
+        "answer": "We continuously improve our platform with regular updates and new features based on user feedback and industry trends."
+      }
+    },
+    "pricing": {
+      "title": "定价问题",
+      "q1": {
+        "question": "有哪些付费方案？",
+        "answer": "我们提供个人版（$29/月）、团队版（$99/月）和企业版（定制价格）三种方案，满足不同规模用户的需求。"
+      },
+      "q2": {
+        "question": "可以随时取消订阅吗？",
+        "answer": "是的，您可以随时取消订阅。取消后，您的账户将在当前计费周期结束时降级为免费方案。"
+      },
+      "q3": {
+        "question": "是否提供教育折扣？",
+        "answer": "我们为学生和教育机构提供 50% 的教育折扣。请联系我们的销售团队了解详情。"
+      }
+    },
+    "technical": {
+      "title": "技术问题",
+      "q1": {
+        "question": "支持哪些框架和技术栈？",
+        "answer": "我们支持 React、Vue、Angular 等主流前端框架，以及 Next.js、Nuxt.js 等全栈框架。"
+      },
+      "q2": {
+        "question": "如何集成到现有项目中？",
+        "answer": "通过我们的 CLI 工具或 npm 包，您可以轻松将 Morning AI 组件集成到现有项目中，无需重构现有代码。"
+      },
+      "q3": {
+        "question": "是否支持 TypeScript？",
+        "answer": "是的，我们的所有组件都提供完整的 TypeScript 类型定义，确保类型安全和更好的开发体验。"
+      }
+    },
+    "support": {
+      "title": "支持问题",
+      "q1": {
+        "question": "技术支持如何提供？",
+        "answer": "我们提供多层级的技术支持：免费用户可使用社区论坛，付费用户享有邮件支持，企业客户则有专属的客户成功经理。"
+      },
+      "q2": {
+        "question": "响应时间是多久？",
+        "answer": "免费用户通过社区支持，通常 24-48 小时内回复；付费用户邮件支持 12 小时内回复；企业客户享有 4 小时内响应的 SLA。"
+      },
+      "q3": {
+        "question": "数据安全如何保障？",
+        "answer": "我们采用业界标准的安全措施，包括 SOC 2 Type II 认证、端到端加密，以及定期的安全审计，确保您的数据安全。"
+      }
+    },
+    "search": {
+      "title": "没找到您要的答案？",
+      "placeholder": "搜索常见问题..."
+    },
+    "contact": {
+      "title": "仍有疑问？",
+      "description": "如果您没有找到需要的答案，我们的支持团队随时为您提供帮助。",
+      "support": "联系支持团队"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "联系我们",
+      "description": "有任何问题或需要协助吗？我们的团队随时为您提供支持。"
+    },
+    "form": {
+      "title": "发送消息",
+      "name": "姓名",
+      "namePlaceholder": "请输入您的姓名",
+      "email": "电子邮件",
+      "emailPlaceholder": "请输入您的电子邮件",
+      "subject": "主题",
+      "subjectPlaceholder": "请选择主题",
+      "message": "消息内容",
+      "messagePlaceholder": "请详细描述您的问题或需求",
+      "submit": "发送消息"
+    },
+    "info": {
+      "title": "联系信息",
+      "email": {
+        "title": "电子邮件",
+        "value": "hello@morningai.com"
+      },
+      "phone": {
+        "title": "电话",
+        "value": "+86-21-1234-5678"
+      },
+      "address": {
+        "title": "地址",
+        "value": "上海市浦东新区陆家嘴环路1000号"
+      }
+    },
+    "hours": {
+      "title": "营业时间",
+      "weekdays": "周一至周五",
+      "weekdaysTime": "09:00 - 18:00",
+      "weekend": "周末",
+      "weekendTime": "休息"
+    }
+  },
+  "demo": {
+    "title": "产品演示",
+    "subtitle": "亲身体验 Morning AI 的强大功能，看看我们如何改变您的开发流程。",
+    "hero": {
+      "title": "产品演示",
+      "description": "亲身体验 Morning AI 的强大功能，看看我们如何改变您的开发流程。",
+      "cta": "开始体验"
+    },
+    "features": {
+      "design": {
+        "title": "智能设计",
+        "description": "AI 驱动的设计工具，自动生成美观且功能完整的界面。"
+      },
+      "speed": {
+        "title": "极速开发",
+        "description": "大幅提升开发效率，快速构建高品质的产品原型。"
+      },
+      "tools": {
+        "title": "完整工具",
+        "description": "提供完整的开发工具链，从设计到部署一站式解决方案。"
+      }
+    },
+    "aiDesign": {
+      "title": "AI 智能设计",
+      "description": "体验 AI 驱动的设计工具，自动生成美观且功能完整的界面。",
+      "feature1": "智能布局建议",
+      "feature2": "自动色彩搭配",
+      "feature3": "响应式设计优化"
+    },
+    "componentLibrary": {
+      "title": "组件库展示",
+      "description": "探索我们丰富的 UI 组件库，每个组件都经过精心设计和测试。",
+      "feature1": "16+ 响应式组件",
+      "feature2": "完整的设计令牌",
+      "feature3": "无障碍性支持"
+    },
+    "workflow": {
+      "title": "开发流程",
+      "description": "了解如何使用 Morning AI 优化您的开发工作流程。",
+      "feature1": "快速原型建立",
+      "feature2": "自动代码生成",
+      "feature3": "实时预览更新"
+    },
+    "interactive": {
+      "title": "交互式演示",
+      "description": "点击下方组件，体验我们设计系统的强大功能。",
+      "startTrial": "开始免费试用",
+      "scheduleDemo": "预约产品演示"
+    },
+    "cta": {
+      "title": "准备开始使用了吗？",
+      "description": "立即注册，开始您的 Morning AI 之旅。"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新",
+    "lastUpdatedDate": "2025年1月1日",
+    "introduction": {
+      "title": "简介",
+      "content": "Morning AI 重视您的隐私权。本隐私政策说明我们如何收集、使用和保护您的个人信息。"
+    },
+    "tableOfContents": "目录",
+    "dataCollection": {
+      "title": "数据收集",
+      "content": "我们收集您主动提供给我们的信息，包括但不限于：",
+      "item1": "您的姓名、电子邮件地址、公司信息等注册资料",
+      "item2": "您使用我们服务时的技术信息，如 IP 地址、浏览器类型等",
+      "item3": "您使用 AI 功能时的输入内容和使用模式",
+      "item4": "通过 Cookie 和类似技术收集的使用数据"
+    },
+    "dataUsage": {
+      "title": "数据使用",
+      "content": "我们使用收集的信息来提供、维护和改善我们的服务。具体用途包括：",
+      "item1": "处理您的请求和交易，提供客户支持",
+      "item2": "发送服务相关通知，进行安全监控",
+      "item3": "使用匿名化数据进行分析，改善产品功能"
+    },
+    "dataSharing": {
+      "title": "数据分享",
+      "content": "我们不会向第三方出售、交易或转让您的个人信息。我们只会在获得您的明确同意、遵守法律要求或与可信任的服务提供商合作时分享您的信息。"
+    },
+    "userRights": {
+      "title": "用户权利",
+      "content": "您对自己的个人信息享有以下权利：",
+      "item1": "查阅权 - 您可以要求查看我们持有的关于您的信息",
+      "item2": "更正权 - 您可以要求更正不准确的信息",
+      "item3": "删除权 - 在特定情况下，您可以要求删除您的个人信息",
+      "item4": "拒絕權：您可以拒絕某些資料處理活動"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如果您对本隐私政策有任何疑问或需要协助，请通过以下方式联系我们：",
+      "email": "电子邮件",
+      "address": "地址",
+      "addressValue": "上海市浦东新区陆家嘴环路1000号",
+      "phone": "电话",
+      "phoneValue": "+86-21-1234-5678",
+      "content": "If you have any questions about this Privacy Policy, please contact us at privacy@morningai.com."
+    },
+    "updates": {
+      "title": "政策更新",
+      "content": "我們可能會不時更新本隱私政策。重大變更將會透過電子郵件或網站公告通知您。"
+    }
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新",
+    "lastUpdatedDate": "2025年1月1日",
+    "introduction": "欢迎使用 Morning AI 服务。使用我们的服务即表示您同意遵守以下条款和条件。",
+    "tableOfContents": "目录",
+    "acceptance": {
+      "title": "条款接受",
+      "content": "通过访问或使用 Morning AI 的服务，您确认已阅读、理解并同意受本服务条款约束。如果您不同意这些条款，请勿使用我们的服务。\n\n本条款构成您与 Morning AI 之间具有法律约束力的协议。我们保留随时修改这些条款的权利，修改后的条款将在网站上公布后生效。"
+    },
+    "services": {
+      "title": "服务描述",
+      "content": "Morning AI 提供基于人工智能的 SaaS 平台服务，包括但不限于：AI 驱动的设计工具、组件库、开发工作流程优化等功能。我们致力于提供高品质、可靠的服务。\n\n服务内容可能会根据技术发展和市场需求进行调整。我们会尽力提前通知重大变更，但保留随时修改或终止特定功能的权利。",
+      "item1": "AI 驱动的智能设计工具和自动化功能",
+      "item2": "完整的 UI 组件库和设计系统",
+      "item3": "开发工作流程优化和协作平台"
+    },
+    "userAccounts": {
+      "title": "用户账户",
+      "content": "使用某些服务功能需要建立账户。您有责任维护账户信息的准确性和安全性，包括选择强密码并定期更新。您不得与他人分享账户凭证。\n\n您对通过您账户进行的所有活动负责。如发现未经授权的使用，请立即通知我们。我们保留暂停或终止违反条款的账户的权利。"
+    },
+    "acceptableUse": {
+      "title": "可接受使用",
+      "content": "您同意仅将我们的服务用于合法目的。禁止的行为包括但不限于：上传恶意软件或病毒、进行未经授权的访问尝试、骚扰其他用户、侵犯知识产权、从事欺诈活动。\n\n我们保留监控使用情况并采取适当行动（包括暂停服务）来防止滥用的权利。违反使用政策可能导致账户终止和法律后果。"
+    },
+    "intellectualProperty": {
+      "title": "知识产权",
+      "content": "Morning AI 服务及其所有内容、功能和技术均为 Morning AI 或其授权方的财产，受著作权、商标和其他知识产权法律保护。\n\n您获得有限的、非独占的、不可转让的许可来使用服务。您不得复制、修改、分发或创建衍生作品。您通过服务创建的内容归您所有，但您授予我们提供服务所需的许可。"
+    },
+    "paymentTerms": {
+      "title": "付款条款",
+      "content": "付费服务的费用将根据您选择的计划收取。所有费用均以人民币计价，除非另有说明。订阅费用将按月或按年预先收取。\n\n我们接受信用卡和其他指定的付款方式。未能及时付款可能导致服务暂停。退款政策详见我们的退款条款，某些费用可能不可退还。"
+    },
+    "privacy": {
+      "title": "隐私保护",
+      "content": "您的隐私对我们很重要。我们的隐私政策详细说明了我们如何收集、使用和保护您的个人信息。使用我们的服务即表示您同意我们的隐私政策。\n\n我们承诺保护您的数据安全，并仅在提供服务所需的范围内使用您的信息。我们不会向第三方出售您的个人信息。"
+    },
+    "disclaimers": {
+      "title": "免责声明",
+      "content": "服务按「现状」提供，不提供任何明示或暗示的保证。我们不保证服务将不间断、无错误或完全安全。您使用服务的风险由您自行承担。\n\n我们不对因使用或无法使用服务而造成的任何直接、间接、偶然或后果性损害承担责任。这包括但不限于数据丢失、业务中断或利润损失。"
+    },
+    "limitationLiability": {
+      "title": "责任限制",
+      "content": "在法律允许的最大范围内，Morning AI 对任何损害的总责任不超过您在发生损害前 12 个月内支付给我们的费用总额。\n\n此责任限制适用于所有损害类型，无论是基于合同、侵权或其他法律理论。某些司法管辖区不允许排除或限制某些损害，因此上述限制可能不适用于您。"
+    },
+    "termination": {
+      "title": "服务终止",
+      "content": "您可以随时停止使用我们的服务并删除您的账户。我们也保留因违反条款、长期不活跃或其他合理原因而暂停或终止您账户的权利。\n\n终止后，您使用服务的权利将立即停止。我们可能会保留某些信息以遵守法律义务或解决争议。终止不会影响任何一方在终止前产生的权利和义务。"
+    },
+    "governingLaw": {
+      "title": "适用法律",
+      "content": "本条款受中华人民共和国法律管辖并依其解释，不考虑法律冲突原则。任何争议应首先通过善意协商解决。\n\n如协商无法解决争议，双方同意将争议提交上海市浦东新区人民法院管辖。您同意放弃任何关于不便法院或缺乏管辖权的异议。"
+    },
+    "changes": {
+      "title": "条款变更",
+      "content": "我们保留随时修改本服务条款的权利。重大变更将通过电子邮件或服务内通知告知您。修改后的条款将在公布后立即生效。\n\n继续使用服务即表示您接受修改后的条款。如果您不同意变更，应停止使用服务。建议您定期查看条款以了解最新变更。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如果您对本服务条款有任何疑问，请通过以下方式联系我们：",
+      "email": "电子邮件",
+      "address": "地址",
+      "addressValue": "上海市浦东新区陆家嘴环路 1000 号",
+      "phone": "电话",
+      "phoneValue": "+86-21-1234-5678",
+      "content": "If you have any questions about these Terms, please contact us at legal@morningai.com."
+    },
+    "userResponsibilities": {
+      "title": "用户责任",
+      "content": "您有责任维护账户和密码的机密性，并限制对您计算机的访问。您同意对通过您账户进行的所有活动承担责任。",
+      "item1": "维护账户信息的准确性和安全性",
+      "item2": "遵守所有适用的法律法规",
+      "item3": "不得滥用或干扰服务的正常运作",
+      "item4": "尊重其他用户的权利和隐私"
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "In no event shall Morning AI be liable for any indirect, incidental, special, consequential, or punitive damages."
+    }
+  },
+  "i18nDemo": {
+    "title": "多语言演示",
+    "description": "展示 Morning AI 的多语言支持功能"
+  },
+  "hero": {
+    "title": "Powerful Features, Unlimited Possibilities",
+    "subtitle": "Explore Morning AI's complete feature suite, from intelligent design systems to enterprise-grade solutions. We provide all the tools you need for success.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "View Demo"
+    }
+  },
+  "Locale": "en"
+}
