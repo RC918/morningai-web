@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
+import Analytics from '@/components/Analytics';
 import { DemoBadge } from '@/components/DemoBadge';
 import { AllLocales } from '@/utils/AppConfig';
 
@@ -61,6 +62,7 @@ export default function RootLayout(props: {
           {props.children}
 
           <DemoBadge />
+          <Analytics locale={props.params.locale} />
         </NextIntlClientProvider>
       </body>
     </html>
