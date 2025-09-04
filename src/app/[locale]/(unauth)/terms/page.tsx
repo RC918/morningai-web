@@ -1,8 +1,8 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import { Section } from '@/features/landing/Section';
 import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
-import { Section } from '@/features/landing/Section';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -22,16 +22,16 @@ const TermsPage = (props: { params: { locale: string } }) => {
   return (
     <>
       <Navbar />
-      
+
       <Section className="py-36">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">
+        <div className="mx-auto max-w-4xl">
+          <h1 className="mb-6 text-4xl font-bold tracking-tight">
             Terms of Service
           </h1>
-          <p className="text-lg text-muted-foreground mb-8">
+          <p className="mb-8 text-lg text-muted-foreground">
             Last updated: September 4, 2025
           </p>
-          
+
           <div className="prose prose-lg max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
@@ -164,4 +164,3 @@ const TermsPage = (props: { params: { locale: string } }) => {
 };
 
 export default TermsPage;
-

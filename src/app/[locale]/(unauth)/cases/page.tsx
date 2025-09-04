@@ -1,10 +1,10 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { CaseCard } from '@/components/CaseCard';
+import { Section } from '@/features/landing/Section';
 import { CTA } from '@/templates/CTA';
 import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
-import { Section } from '@/features/landing/Section';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -24,13 +24,13 @@ const CasesPage = (props: { params: { locale: string } }) => {
   return (
     <>
       <Navbar />
-      
+
       <Section className="py-36">
         <div className="text-center">
           <h1 className="text-5xl font-bold tracking-tight">
             Success Stories
           </h1>
-          <p className="mt-6 text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="mx-auto mt-6 max-w-3xl text-xl text-muted-foreground">
             Discover how leading companies use Morning AI to transform their design workflows and accelerate product development.
           </p>
         </div>
@@ -46,7 +46,7 @@ const CasesPage = (props: { params: { locale: string } }) => {
             readTime="5 min read"
             href="/cases/techcorp"
           />
-          
+
           <CaseCard
             title="StartupX Scales Design Team 3x"
             description="StartupX leveraged Morning AI's automation to scale their design capabilities without hiring additional designers."
@@ -55,7 +55,7 @@ const CasesPage = (props: { params: { locale: string } }) => {
             readTime="4 min read"
             href="/cases/startupx"
           />
-          
+
           <CaseCard
             title="DesignStudio Improves Client Delivery"
             description="A design agency improved client satisfaction and delivery speed using Morning AI's collaborative features."
@@ -64,7 +64,7 @@ const CasesPage = (props: { params: { locale: string } }) => {
             readTime="6 min read"
             href="/cases/designstudio"
           />
-          
+
           <CaseCard
             title="E-commerce Giant Optimizes UX"
             description="How a major e-commerce platform used Morning AI to optimize user experience across 50+ product pages."
@@ -73,7 +73,7 @@ const CasesPage = (props: { params: { locale: string } }) => {
             readTime="7 min read"
             href="/cases/ecommerce"
           />
-          
+
           <CaseCard
             title="FinTech Ensures Design Compliance"
             description="A financial technology company maintains regulatory compliance while innovating with Morning AI's secure design tools."
@@ -82,7 +82,7 @@ const CasesPage = (props: { params: { locale: string } }) => {
             readTime="5 min read"
             href="/cases/fintech"
           />
-          
+
           <CaseCard
             title="Healthcare App Improves Accessibility"
             description="A healthcare application enhanced accessibility and user experience using Morning AI's inclusive design features."
@@ -101,4 +101,3 @@ const CasesPage = (props: { params: { locale: string } }) => {
 };
 
 export default CasesPage;
-

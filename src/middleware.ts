@@ -29,8 +29,8 @@ export default function middleware(
 ) {
   // 排除健康檢查和版本 API
   if (
-    request.nextUrl.pathname === '/api/health' ||
-    request.nextUrl.pathname === '/api/version'
+    request.nextUrl.pathname === '/api/health'
+    || request.nextUrl.pathname === '/api/version'
   ) {
     return NextResponse.next();
   }

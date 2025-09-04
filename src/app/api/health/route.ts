@@ -27,15 +27,15 @@ export async function GET() {
         'Expires': '0',
       },
     });
-  } catch (_error) {
+  } catch (error) {
+    console.error('Health check error:', error);
     return NextResponse.json(
       {
         status: 'unhealthy',
         timestamp: new Date().toISOString(),
         error: 'Health check failed',
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
-

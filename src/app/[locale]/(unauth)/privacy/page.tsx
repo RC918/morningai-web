@@ -1,8 +1,8 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import { Section } from '@/features/landing/Section';
 import { Footer } from '@/templates/Footer';
 import { Navbar } from '@/templates/Navbar';
-import { Section } from '@/features/landing/Section';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -22,16 +22,16 @@ const PrivacyPage = (props: { params: { locale: string } }) => {
   return (
     <>
       <Navbar />
-      
+
       <Section className="py-36">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">
+        <div className="mx-auto max-w-4xl">
+          <h1 className="mb-6 text-4xl font-bold tracking-tight">
             Privacy Policy
           </h1>
-          <p className="text-lg text-muted-foreground mb-8">
+          <p className="mb-8 text-lg text-muted-foreground">
             Last updated: September 4, 2025
           </p>
-          
+
           <div className="prose prose-lg max-w-none">
             <h2>1. Introduction</h2>
             <p>
@@ -79,10 +79,26 @@ const PrivacyPage = (props: { params: { locale: string } }) => {
             <h2>4. Information Sharing and Disclosure</h2>
             <p>We do not sell your personal information. We may share your information in the following circumstances:</p>
             <ul>
-              <li><strong>Service Providers:</strong> With trusted third-party vendors who assist in operating our services</li>
-              <li><strong>Legal Requirements:</strong> When required by law or to protect our rights</li>
-              <li><strong>Business Transfers:</strong> In connection with mergers, acquisitions, or asset sales</li>
-              <li><strong>Consent:</strong> With your explicit consent for specific purposes</li>
+              <li>
+                <strong>Service Providers:</strong>
+                {' '}
+                With trusted third-party vendors who assist in operating our services
+              </li>
+              <li>
+                <strong>Legal Requirements:</strong>
+                {' '}
+                When required by law or to protect our rights
+              </li>
+              <li>
+                <strong>Business Transfers:</strong>
+                {' '}
+                In connection with mergers, acquisitions, or asset sales
+              </li>
+              <li>
+                <strong>Consent:</strong>
+                {' '}
+                With your explicit consent for specific purposes
+              </li>
             </ul>
 
             <h2>5. Data Security</h2>
@@ -104,11 +120,31 @@ const PrivacyPage = (props: { params: { locale: string } }) => {
             <h2>7. Your Rights and Choices</h2>
             <p>Depending on your location, you may have the following rights:</p>
             <ul>
-              <li><strong>Access:</strong> Request access to your personal information</li>
-              <li><strong>Correction:</strong> Request correction of inaccurate information</li>
-              <li><strong>Deletion:</strong> Request deletion of your personal information</li>
-              <li><strong>Portability:</strong> Request a copy of your data in a portable format</li>
-              <li><strong>Opt-out:</strong> Opt-out of certain data processing activities</li>
+              <li>
+                <strong>Access:</strong>
+                {' '}
+                Request access to your personal information
+              </li>
+              <li>
+                <strong>Correction:</strong>
+                {' '}
+                Request correction of inaccurate information
+              </li>
+              <li>
+                <strong>Deletion:</strong>
+                {' '}
+                Request deletion of your personal information
+              </li>
+              <li>
+                <strong>Portability:</strong>
+                {' '}
+                Request a copy of your data in a portable format
+              </li>
+              <li>
+                <strong>Opt-out:</strong>
+                {' '}
+                Opt-out of certain data processing activities
+              </li>
             </ul>
 
             <h2>8. Cookies and Tracking Technologies</h2>
@@ -149,4 +185,3 @@ const PrivacyPage = (props: { params: { locale: string } }) => {
 };
 
 export default PrivacyPage;
-

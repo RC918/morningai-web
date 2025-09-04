@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from 'react';
 
-interface VersionData {
+type VersionData = {
   version: string;
   commit: string;
   buildTime: string;
-}
+};
 
 export const VersionInfo = () => {
   const [versionData, setVersionData] = useState<VersionData | null>(null);
@@ -38,9 +38,14 @@ export const VersionInfo = () => {
 
   return (
     <div className="text-xs text-muted-foreground">
-      <div>Version: {versionData.version}</div>
-      <div>Build: {versionData.commit}</div>
+      <div>
+        Version:
+        {versionData.version}
+      </div>
+      <div>
+        Build:
+        {versionData.commit}
+      </div>
     </div>
   );
 };
-

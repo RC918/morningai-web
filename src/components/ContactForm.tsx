@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
+
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -12,7 +13,7 @@ export const ContactForm = () => {
     email: '',
     company: '',
     subject: '',
-    message: ''
+    message: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -20,20 +21,20 @@ export const ContactForm = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1000));
-    
+
     setIsSubmitting(false);
     setIsSubmitted(true);
-    
+
     // Reset form after 3 seconds
     setTimeout(() => {
       setIsSubmitted(false);
@@ -42,16 +43,16 @@ export const ContactForm = () => {
         email: '',
         company: '',
         subject: '',
-        message: ''
+        message: '',
       });
     }, 3000);
   };
 
   if (isSubmitted) {
     return (
-      <div className="text-center p-8 bg-green-50 rounded-lg border border-green-200">
-        <div className="text-green-600 text-4xl mb-4">✓</div>
-        <h3 className="text-lg font-semibold text-green-800 mb-2">Message Sent!</h3>
+      <div className="rounded-lg border border-green-200 bg-green-50 p-8 text-center">
+        <div className="mb-4 text-4xl text-green-600">✓</div>
+        <h3 className="mb-2 text-lg font-semibold text-green-800">Message Sent!</h3>
         <p className="text-green-700">
           Thank you for contacting us. We'll get back to you within 24 hours.
         </p>
@@ -61,7 +62,7 @@ export const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div>
           <Label htmlFor="name">Name *</Label>
           <Input
@@ -74,7 +75,7 @@ export const ContactForm = () => {
             placeholder="Your full name"
           />
         </div>
-        
+
         <div>
           <Label htmlFor="email">Email *</Label>
           <Input
@@ -88,8 +89,8 @@ export const ContactForm = () => {
           />
         </div>
       </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div>
           <Label htmlFor="company">Company</Label>
           <Input
@@ -101,7 +102,7 @@ export const ContactForm = () => {
             placeholder="Your company name"
           />
         </div>
-        
+
         <div>
           <Label htmlFor="subject">Subject *</Label>
           <select
@@ -122,7 +123,7 @@ export const ContactForm = () => {
           </select>
         </div>
       </div>
-      
+
       <div>
         <Label htmlFor="message">Message *</Label>
         <Textarea
@@ -135,21 +136,24 @@ export const ContactForm = () => {
           rows={6}
         />
       </div>
-      
-      <Button 
-        type="submit" 
-        className="w-full" 
+
+      <Button
+        type="submit"
+        className="w-full"
         disabled={isSubmitting}
       >
         {isSubmitting ? 'Sending...' : 'Send Message'}
       </Button>
-      
+
       <p className="text-sm text-muted-foreground">
-        By submitting this form, you agree to our{' '}
+        By submitting this form, you agree to our
+        {' '}
         <a href="/privacy" className="text-primary hover:underline">
           Privacy Policy
-        </a>{' '}
-        and{' '}
+        </a>
+        {' '}
+        and
+        {' '}
         <a href="/terms" className="text-primary hover:underline">
           Terms of Service
         </a>
@@ -158,4 +162,3 @@ export const ContactForm = () => {
     </form>
   );
 };
-

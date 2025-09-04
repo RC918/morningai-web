@@ -19,11 +19,11 @@ export async function GET() {
         'Cache-Control': 'public, max-age=3600', // 快取1小時
       },
     });
-  } catch (_error) {
+  } catch (error) {
+    console.error('Version info error:', error);
     return NextResponse.json(
       { error: 'Version info unavailable' },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
-

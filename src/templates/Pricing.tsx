@@ -58,13 +58,13 @@ export const Pricing = () => {
       {/* FAQ CTA Section */}
       <Section className="py-16">
         <div className="text-center">
-          <h2 className="text-2xl font-bold mb-4">
+          <h2 className="mb-4 text-2xl font-bold">
             Questions about pricing?
           </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="mx-auto mb-8 max-w-2xl text-lg text-muted-foreground">
             Check out our frequently asked questions or get in touch with our sales team for custom enterprise solutions.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/faq"
               className={buttonVariants({ variant: 'outline', size: 'lg' })}

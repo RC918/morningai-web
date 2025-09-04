@@ -1,16 +1,16 @@
 'use client';
 
-import { useState } from 'react';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { useState } from 'react';
 
-interface FAQ {
+type FAQ = {
   question: string;
   answer: string;
-}
+};
 
-interface FAQAccordionProps {
+type FAQAccordionProps = {
   faqs: FAQ[];
-}
+};
 
 export const FAQAccordion = ({ faqs }: FAQAccordionProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -24,23 +24,23 @@ export const FAQAccordion = ({ faqs }: FAQAccordionProps) => {
       {faqs.map((faq, index) => (
         <div
           key={index}
-          className="border rounded-lg overflow-hidden"
+          className="overflow-hidden rounded-lg border"
         >
           <button
             type="button"
-            className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-muted/50 transition-colors"
+            className="flex w-full items-center justify-between px-6 py-4 text-left transition-colors hover:bg-muted/50"
             onClick={() => toggleFAQ(index)}
           >
-            <h3 className="text-lg font-semibold pr-4">{faq.question}</h3>
+            <h3 className="pr-4 text-lg font-semibold">{faq.question}</h3>
             <ChevronDownIcon
-              className={`h-5 w-5 transition-transform ${
+              className={`size-5 transition-transform ${
                 openIndex === index ? 'rotate-180' : ''
               }`}
             />
           </button>
           {openIndex === index && (
             <div className="px-6 pb-4">
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="leading-relaxed text-muted-foreground">
                 {faq.answer}
               </p>
             </div>
@@ -50,4 +50,3 @@ export const FAQAccordion = ({ faqs }: FAQAccordionProps) => {
     </div>
   );
 };
-
