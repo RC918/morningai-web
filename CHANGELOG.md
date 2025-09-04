@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/RC918/morningai-web/compare/v1.3.2...v1.3.3) (2025-09-04)
+
+
+### Bug Fixes
+
+* **lint:** fix playwright.config.ts formatting issues ([97251c0](https://github.com/RC918/morningai-web/commit/97251c083ba941d2965ebee4ab669d801050c2ce))
+
 ## [1.3.2](https://github.com/RC918/morningai-web/compare/v1.3.1...v1.3.2) (2025-09-04)
 
 
