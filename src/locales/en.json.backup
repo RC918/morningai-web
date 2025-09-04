@@ -42,47 +42,6 @@
     "switch": "Switch Language",
     "switchLanguage": "Switch Language"
   },
-  "Hero": {
-    "follow_twitter": "Follow @MorningAI on Twitter",
-    "title": "We make smart <important>design, & AI tools</important>",
-    "description": "An intelligent solutions platform that blends design systems with AI workflows to help teams ship beautiful products faster.",
-    "primary_button": "Get started",
-    "secondary_button": "Book a demo"
-  },
-  "Features": {
-    "section_subtitle": "Features",
-    "section_title": "Everything you need to build, test & launch",
-    "section_description": "An intelligent solutions platform that blends design systems with AI workflows to help teams ship beautiful products faster.",
-    "feature1_title": "AI Design Copilot",
-    "feature2_title": "Production-grade Component Library",
-    "feature3_title": "Workflow Automation",
-    "feature4_title": "Multi-language & SEO",
-    "feature5_title": "Analytics & Insights",
-    "feature6_title": "Security & Compliance",
-    "feature_description": "Generate variations, auto-layout, and content with one click. Bridge design to production with consistent tokens."
-  },
-  "Pricing": {
-    "section_subtitle": "Pricing",
-    "section_title": "Simple pricing that scales with you",
-    "section_description": "Start free. Upgrade when you're ready.",
-    "button_text": "Get Started"
-  },
-  "PricingPlan": {
-    "free_plan_name": "Basic",
-    "premium_plan_name": "Professional",
-    "enterprise_plan_name": "Enterprise",
-    "free_plan_description": "Perfect for getting started",
-    "premium_plan_description": "Most popular choice",
-    "enterprise_plan_description": "For large organizations",
-    "feature_team_member": "Core components & themes",
-    "feature_website": "AI prompts (limited)",
-    "feature_storage": "Community support",
-    "feature_transfer": "All Basic features",
-    "feature_email_support": "AI Copilot full access",
-    "plan_interval_month": "mo",
-    "plan_interval_year": "year",
-    "next_renew_date": "Your subscription renews on {date}"
-  },
   "home": {
     "hero": {
       "title": "We make smart design, & AI tools",

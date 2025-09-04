@@ -19,14 +19,22 @@ const isProtectedRoute = createRouteMatcher([
   '/:locale/dashboard(.*)',
   '/onboarding(.*)',
   '/:locale/onboarding(.*)',
-  '/api(.*)',
-  '/:locale/api(.*)',
+  '/api/(.*)',
+  '/:locale/api/(.*)',
 ]);
 
 export default function middleware(
   request: NextRequest,
   event: NextFetchEvent,
 ) {
+  // 排除健康檢查和版本 API
+  if (
+    request.nextUrl.pathname === '/api/health' ||
+    request.nextUrl.pathname === '/api/version'
+  ) {
+    return NextResponse.next();
+  }
+
   if (
     request.nextUrl.pathname.includes('/sign-in')
     || request.nextUrl.pathname.includes('/sign-up')

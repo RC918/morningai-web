@@ -10,48 +10,76 @@ export const Pricing = () => {
   const t = useTranslations('Pricing');
 
   return (
-    <Section
-      subtitle={t('section_subtitle')}
-      title={t('section_title')}
-      description={t('section_description')}
-    >
-      <PricingInformation
-        buttonList={{
-          [PLAN_ID.FREE]: (
+    <>
+      <Section
+        subtitle={t('section_subtitle')}
+        title={t('section_title')}
+        description={t('section_description')}
+      >
+        <PricingInformation
+          buttonList={{
+            [PLAN_ID.FREE]: (
+              <Link
+                className={buttonVariants({
+                  size: 'sm',
+                  className: 'mt-5 w-full',
+                })}
+                href="/sign-up"
+              >
+                {t('button_text')}
+              </Link>
+            ),
+            [PLAN_ID.PREMIUM]: (
+              <Link
+                className={buttonVariants({
+                  size: 'sm',
+                  className: 'mt-5 w-full',
+                })}
+                href="/sign-up"
+              >
+                {t('button_text')}
+              </Link>
+            ),
+            [PLAN_ID.ENTERPRISE]: (
+              <Link
+                className={buttonVariants({
+                  size: 'sm',
+                  className: 'mt-5 w-full',
+                })}
+                href="/sign-up"
+              >
+                {t('button_text')}
+              </Link>
+            ),
+          }}
+        />
+      </Section>
+
+      {/* FAQ CTA Section */}
+      <Section className="py-16">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">
+            Questions about pricing?
+          </h2>
+          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+            Check out our frequently asked questions or get in touch with our sales team for custom enterprise solutions.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              className={buttonVariants({
-                size: 'sm',
-                className: 'mt-5 w-full',
-              })}
-              href="/sign-up"
+              href="/faq"
+              className={buttonVariants({ variant: 'outline', size: 'lg' })}
             >
-              {t('button_text')}
+              View FAQ
             </Link>
-          ),
-          [PLAN_ID.PREMIUM]: (
             <Link
-              className={buttonVariants({
-                size: 'sm',
-                className: 'mt-5 w-full',
-              })}
-              href="/sign-up"
+              href="/contact"
+              className={buttonVariants({ size: 'lg' })}
             >
-              {t('button_text')}
+              Contact Sales
             </Link>
-          ),
-          [PLAN_ID.ENTERPRISE]: (
-            <Link
-              className={buttonVariants({
-                size: 'sm',
-                className: 'mt-5 w-full',
-              })}
-              href="/sign-up"
-            >
-              {t('button_text')}
-            </Link>
-          ),
-        }}
-      />
-    </Section>
+          </div>
+        </div>
+      </Section>
+    </>
   );
 };

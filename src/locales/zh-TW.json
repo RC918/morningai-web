@@ -1,0 +1,784 @@
+{
+  "LANG_CHECK": "繁中 OK",
+  "common": {
+    "title": "強大功能，無限可能",
+    "description": "探索 Morning AI 的完整功能套件，從智能設計系統到企業級解決方案，我們提供您成功所需的一切工具。",
+    "loading": "載入中...",
+    "error": "錯誤",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "確認",
+    "close": "關閉",
+    "save": "儲存",
+    "edit": "編輯",
+    "delete": "刪除",
+    "search": "搜尋",
+    "filter": "篩選",
+    "sort": "排序",
+    "previous": "上一頁",
+    "next": "下一頁"
+  },
+  "navigation": {
+    "home": "首頁",
+    "components": "元件庫",
+    "documentation": "文檔",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "features": "功能特色",
+    "pricing": "價格方案",
+    "faq": "FAQ",
+    "demo": "Demo",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "theme": {
+    "light": "淺色",
+    "dark": "深色",
+    "system": "系統",
+    "switchTheme": "切換主題"
+  },
+  "language": {
+    "current": "繁體中文",
+    "switch": "切換語言",
+    "switchLanguage": "切換語言"
+  },
+  "home": {
+    "title": "Morning AI 設計系統",
+    "subtitle": "企業級 React 元件庫",
+    "description": "支援完整 RWD + A11y + 設計系統整合。包含 Button、Input、Navigation 等 16+ 響應式元件。",
+    "viewComponents": "查看元件庫",
+    "viewDocumentation": "查看文檔",
+    "hero": {
+      "label": "AI 驅動設計 🚀",
+      "title": "我們創造智能設計與 AI 工具",
+      "subtitle": "企業級設計系統與元件庫",
+      "description": "Morning AI 是一個位於台灣的設計系統平台。我們幫助新創公司和財富 500 強企業在螢幕另一端取悅人們。",
+      "cta": "開始使用",
+      "learnMore": "了解更多"
+    },
+    "features": {
+      "title": "為什麼選擇 Morning AI",
+      "subtitle": "建構現代應用程式所需的一切",
+      "accessibility": {
+        "title": "無障礙優先",
+        "description": "符合 WCAG 2.1 AA 標準的元件，具備完整的鍵盤導航和螢幕閱讀器支援。"
+      },
+      "responsive": {
+        "title": "響應式設計",
+        "description": "行動優先的設計方法，在 375px、768px 和 1280px 斷點完美適配。"
+      },
+      "performance": {
+        "title": "高效能",
+        "description": "優化的打包大小和執行時效能。首次載入 JS 低於 140KB。"
+      },
+      "typescript": {
+        "title": "TypeScript 就緒",
+        "description": "100% TypeScript 支援，具備完整的型別定義和 IntelliSense。"
+      },
+      "theming": {
+        "title": "進階主題系統",
+        "description": "支援淺色/深色模式，使用 CSS 自訂屬性和設計代幣。"
+      },
+      "developer": {
+        "title": "開發者體驗",
+        "description": "優秀的文檔、Storybook 整合和全面的測試。"
+      }
+    },
+    "cta": {
+      "title": "準備開始了嗎？",
+      "description": "加入數千名開發者，使用 Morning AI 設計系統建構令人驚豔的產品。",
+      "button": "立即開始建構"
+    }
+  },
+  "components": {
+    "title": "元件庫展示",
+    "subtitle": "Morning AI 設計系統核心元件。包含 Button、Input、Navigation 等 16+ 響應式元件。",
+    "description": "探索我們完整的 UI 元件庫，每個元件都經過精心設計，支援響應式佈局和無障礙性標準。",
+    "basic": "基礎元件",
+    "advanced": "進階元件",
+    "button": {
+      "title": "Button 元件",
+      "variants": "變體",
+      "sizes": "尺寸",
+      "states": "狀態",
+      "fullWidth": "全寬按鈕"
+    },
+    "input": {
+      "title": "Input 元件",
+      "basic": "基本輸入框",
+      "withIcon": "帶圖示輸入框",
+      "sizes": "輸入框尺寸",
+      "states": "輸入框狀態",
+      "name": "姓名",
+      "namePlaceholder": "請輸入您的姓名",
+      "nameHelper": "這是說明文字",
+      "email": "電子郵件",
+      "emailPlaceholder": "example@email.com",
+      "smallPlaceholder": "小型輸入框",
+      "mediumPlaceholder": "中型輸入框",
+      "largePlaceholder": "大型輸入框",
+      "normalState": "正常狀態",
+      "successState": "成功狀態",
+      "errorState": "錯誤狀態",
+      "loadingState": "載入中狀態",
+      "disabledState": "停用狀態"
+    },
+    "navigation": {
+      "title": "Navigation 元件",
+      "description": "響應式導航，具備主題切換器和語言選擇器"
+    },
+    "tabs": {
+      "title": "Tabs 元件",
+      "tab1": "分頁 1",
+      "tab2": "分頁 2",
+      "tab3": "分頁 3",
+      "content1": "分頁 1 的內容",
+      "content2": "分頁 2 的內容",
+      "content3": "分頁 3 的內容"
+    },
+    "modal": {
+      "title": "Modal 元件",
+      "openModal": "開啟彈窗",
+      "modalTitle": "彈窗標題",
+      "modalContent": "這是彈窗內容。您可以在這裡放置任何內容。",
+      "closeModal": "關閉彈窗"
+    },
+    "toast": {
+      "title": "Toast 元件",
+      "showSuccess": "顯示成功提示",
+      "showError": "顯示錯誤提示",
+      "showWarning": "顯示警告提示",
+      "showInfo": "顯示資訊提示",
+      "successMessage": "操作成功完成！",
+      "errorMessage": "發生錯誤，請重試。",
+      "warningMessage": "請檢查您的輸入。",
+      "infoMessage": "這是一則資訊訊息。"
+    },
+    "dropdown": {
+      "title": "Dropdown 元件",
+      "selectOption": "選擇選項",
+      "option1": "選項 1",
+      "option2": "選項 2",
+      "option3": "選項 3"
+    },
+    "tooltip": {
+      "title": "Tooltip 元件",
+      "hoverMe": "滑鼠懸停",
+      "tooltipText": "這是工具提示"
+    },
+    "table": {
+      "title": "Table 元件",
+      "name": "姓名",
+      "email": "電子郵件",
+      "role": "角色",
+      "status": "狀態",
+      "actions": "操作",
+      "noData": "無可用資料"
+    },
+    "pagination": {
+      "title": "Pagination 元件",
+      "page": "第",
+      "of": "頁，共",
+      "itemsPerPage": "項目每頁"
+    },
+    "card": {
+      "title": "Card 元件",
+      "cardTitle": "卡片標題",
+      "cardSubtitle": "卡片副標題",
+      "cardContent": "這是卡片內容區域，您可以在此放置任何資訊。",
+      "action": "操作"
+    },
+    "badge": {
+      "title": "Badge 元件",
+      "default": "預設",
+      "primary": "主要",
+      "success": "成功",
+      "warning": "警告",
+      "error": "錯誤"
+    },
+    "avatar": {
+      "title": "Avatar 元件",
+      "user": "使用者"
+    },
+    "skeleton": {
+      "title": "Skeleton 元件",
+      "loading": "載入內容中..."
+    },
+    "select": {
+      "title": "Select 元件",
+      "placeholder": "選擇選項",
+      "option1": "選項 1",
+      "option2": "選項 2",
+      "option3": "選項 3",
+      "disabled": "停用選項",
+      "label": "選擇標籤",
+      "helper": "這是選擇元件的輔助文字"
+    },
+    "textarea": {
+      "title": "Textarea 元件",
+      "placeholder": "請在此輸入您的訊息...",
+      "label": "訊息",
+      "helper": "請輸入您的訊息",
+      "charCount": "字數統計"
+    },
+    "checkbox": {
+      "title": "Checkbox 元件",
+      "option1": "選項 1",
+      "option2": "選項 2",
+      "option3": "選項 3",
+      "indeterminate": "不確定狀態",
+      "description": "這是核取方塊選項的描述"
+    },
+    "radio": {
+      "title": "Radio 元件",
+      "option1": "選項 1",
+      "option2": "選項 2",
+      "option3": "選項 3",
+      "description": "這是單選按鈕選項的描述"
+    },
+    "switch": {
+      "title": "Switch 元件",
+      "option1": "啟用通知",
+      "option2": "深色模式",
+      "option3": "自動儲存",
+      "description": "開啟或關閉此設定"
+    },
+    "loading": {
+      "title": "Loading 元件",
+      "spinner": "旋轉器",
+      "dots": "點點",
+      "pulse": "脈衝",
+      "bars": "條狀",
+      "text": "載入中...",
+      "overlay": "顯示覆蓋層"
+    }
+  },
+  "stats": {
+    "coreComponents": "核心元件",
+    "componentStates": "元件狀態",
+    "responsiveBreakpoints": "響應式斷點",
+    "typescript": "TypeScript"
+  },
+  "footer": {
+    "copyright": "© 2025 Morning AI. 使用 Next.js 15 + Tailwind CSS 建構。"
+  },
+  "seo": {
+    "siteName": "Morning AI - 智能 SaaS 平台",
+    "defaultTitle": "Morning AI - 智能 SaaS 平台",
+    "defaultDescription": "Morning AI 提供先進的人工智能解決方案，幫助企業提升效率和創新能力。體驗我們的智能設計系統和元件庫。",
+    "defaultKeywords": "Morning AI, 人工智能, SaaS, 設計系統, 元件庫, 智能平台, AI 解決方案"
+  },
+  "cta": {
+    "readyToStart": {
+      "title": "準備開始了嗎？",
+      "description": "立即開始使用 Morning AI，體驗智能化開發的全新境界。",
+      "primary": "Start Free Trial",
+      "secondary": "Contact Sales"
+    },
+    "getStarted": "立即開始",
+    "learnMore": "了解更多",
+    "viewDemo": "查看示範",
+    "tryDemo": "試用示範",
+    "signUp": "註冊帳號",
+    "contactSales": "聯絡銷售",
+    "viewAllFeatures": "查看所有功能",
+    "viewAllPricing": "查看所有定價",
+    "viewPricing": "查看定價",
+    "contactUs": "聯絡我們",
+    "tryFree": "Try Free"
+  },
+  "features": {
+    "title": "強大功能，無限可能",
+    "subtitle": "探索 Morning AI 的完整功能套件，從智能設計系統到企業級解決方案，我們提供您成功所需的一切工具。",
+    "hero": {
+      "title": "強大功能，無限可能",
+      "description": "探索 Morning AI 的完整功能套件，從智能設計系統到企業級解決方案，我們提供您成功所需的一切工具。"
+    },
+    "aiDesign": {
+      "title": "AI 智能設計",
+      "description": "運用最先進的人工智能技術，自動化您的設計工作流程，提升創作效率。"
+    },
+    "componentLibrary": {
+      "title": "元件庫系統",
+      "description": "完整的 UI 元件庫，每個元件都經過精心設計，支援響應式佈局。"
+    },
+    "workflow": {
+      "title": "開發流程",
+      "description": "優化的開發工作流程，從設計到部署的一站式解決方案。"
+    },
+    "aiPowered": {
+      "title": "AI 驅動的智能系統",
+      "description": "運用最先進的人工智能技術，自動化您的工作流程，提升團隊效率。",
+      "benefit1": "智能代碼生成，減少 80% 開發時間",
+      "benefit2": "自動化測試與品質保證",
+      "benefit3": "智能錯誤檢測與修復建議"
+    },
+    "designSystem": {
+      "title": "企業級設計系統",
+      "description": "統一的設計語言與元件庫，確保品牌一致性與開發效率。",
+      "benefit1": "16+ 響應式 UI 元件",
+      "benefit2": "完整的設計代幣系統",
+      "benefit3": "支援淺色/深色主題切換"
+    },
+    "enterpriseReady": {
+      "title": "企業級安全與擴展",
+      "description": "符合企業標準的安全性、可靠性與擴展性，支援大規模部署。",
+      "benefit1": "SOC 2 Type II 合規認證",
+      "benefit2": "99.9% 服務可用性保證",
+      "benefit3": "支援單點登入 (SSO) 整合"
+    },
+    "developerExperience": {
+      "title": "卓越的開發者體驗",
+      "description": "為開發者量身打造的工具與文檔，讓您專注於創造價值。",
+      "benefit1": "完整的 TypeScript 支援",
+      "benefit2": "豐富的 API 文檔與範例",
+      "benefit3": "活躍的社群與技術支援"
+    },
+    "cta": {
+      "title": "準備體驗這些強大功能了嗎？",
+      "description": "立即開始使用 Morning AI，體驗智能化開發的全新境界。",
+      "viewAll": "View All Features"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "選擇適合您的方案",
+      "description": "從個人開發者到大型企業，我們提供靈活的定價方案，滿足不同規模的需求。"
+    },
+    "popular": "最受歡迎",
+    "starter": {
+      "name": "入門方案",
+      "price": "免費",
+      "period": "永久免費",
+      "description": "適合個人開發者和小型專案",
+      "feature1": "基礎 UI 元件庫",
+      "feature2": "社群技術支援",
+      "feature3": "基本文檔存取",
+      "feature4": "最多 3 個專案",
+      "cta": "立即開始"
+    },
+    "free": {
+      "name": "免費方案",
+      "title": "免費方案",
+      "price": "免費",
+      "description": "適合個人開發者和小型專案",
+      "feature1": "基礎 UI 元件庫",
+      "feature2": "社群技術支援",
+      "feature3": "基本文檔存取",
+      "feature4": "最多 3 個專案",
+      "period": "",
+      "features": {
+        "1": "Basic AI design tools",
+        "2": "5 projects",
+        "3": "Community support",
+        "4": "Basic templates"
+      },
+      "cta": "Get Started"
+    },
+    "professional": {
+      "name": "專業方案",
+      "price": "NT$ 990",
+      "period": "每月",
+      "description": "適合專業開發者和成長中的團隊",
+      "feature1": "完整 UI 元件庫",
+      "feature2": "進階設計系統",
+      "feature3": "優先技術支援",
+      "feature4": "無限專案數量",
+      "feature5": "自訂主題與品牌",
+      "cta": "立即開始"
+    },
+    "pro": {
+      "name": "專業方案",
+      "title": "專業方案",
+      "price": "NT$ 990",
+      "period": "每月",
+      "description": "適合專業開發者和成長中的團隊",
+      "feature1": "完整 UI 元件庫",
+      "feature2": "進階設計系統",
+      "feature3": "優先技術支援",
+      "feature4": "無限專案數量",
+      "feature5": "自訂主題與品牌",
+      "popular": "Most Popular",
+      "features": {
+        "1": "Advanced AI design tools",
+        "2": "Unlimited projects",
+        "3": "Priority support",
+        "4": "Premium templates",
+        "5": "Team collaboration",
+        "6": "Advanced analytics"
+      },
+      "cta": "Get Started"
+    },
+    "enterprise": {
+      "name": "企業方案",
+      "title": "企業方案",
+      "price": "客製化",
+      "period": "聯絡銷售",
+      "description": "適合大型企業和組織",
+      "feature1": "所有專業功能",
+      "feature2": "專屬客戶成功經理",
+      "feature3": "SLA 服務保證",
+      "feature4": "客製化開發服務",
+      "feature5": "企業級安全與合規",
+      "feature6": "白標解決方案",
+      "cta": "聯絡銷售",
+      "features": {
+        "1": "Custom AI solutions",
+        "2": "Unlimited everything",
+        "3": "24/7 dedicated support",
+        "4": "Custom integrations",
+        "5": "Advanced security",
+        "6": "Training & onboarding"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "找到您需要的答案，或聯絡我們的支援團隊。"
+    },
+    "cta": {
+      "title": "準備開始了嗎？",
+      "description": "選擇最適合您需求的方案，立即開始使用 Morning AI。"
+    },
+    "title": "Choose the Right Plan for You",
+    "subtitle": "From individual developers to large enterprises, we offer flexible pricing plans to meet different scale requirements."
+  },
+  "faq": {
+    "title": "常見問題",
+    "subtitle": "找到您需要的答案，或聯絡我們的支援團隊。",
+    "hero": {
+      "title": "常見問題",
+      "description": "找到您需要的答案，或聯絡我們的支援團隊獲得更多協助。"
+    },
+    "general": {
+      "title": "一般問題",
+      "q1": {
+        "question": "Morning AI 適合什麼類型的專案？",
+        "answer": "Morning AI 適合各種規模的 Web 應用程式開發，從個人部落格到大型企業應用都能受益於我們的設計系統和 AI 功能。"
+      },
+      "q2": {
+        "question": "是否支援客製化設計？",
+        "answer": "是的，我們的設計系統完全支援客製化。您可以調整顏色、字體、間距等設計代幣，打造符合品牌形象的獨特界面。"
+      },
+      "q3": {
+        "question": "可以免費試用嗎？",
+        "answer": "當然可以！我們提供永久免費方案，您也可以申請專業方案的 14 天免費試用，無需信用卡資訊。"
+      },
+      "q4": {
+        "question": "What kind of support do you offer?",
+        "answer": "We provide comprehensive support including documentation, tutorials, community forums, and direct support for Pro and Enterprise users."
+      },
+      "q5": {
+        "question": "Is there a free trial available?",
+        "answer": "Yes, we offer a free plan with basic features. You can also try our Pro features with a 14-day free trial."
+      },
+      "q6": {
+        "question": "How secure is my data?",
+        "answer": "We take security seriously with enterprise-grade encryption, regular security audits, and compliance with industry standards."
+      },
+      "q7": {
+        "question": "Can I cancel my subscription anytime?",
+        "answer": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period."
+      },
+      "q8": {
+        "question": "Do you offer custom solutions for enterprises?",
+        "answer": "Yes, we provide tailored solutions for large organizations including custom integrations, dedicated support, and specialized training."
+      },
+      "q9": {
+        "question": "How often do you release new features?",
+        "answer": "We continuously improve our platform with regular updates and new features based on user feedback and industry trends."
+      }
+    },
+    "pricing": {
+      "title": "定價問題",
+      "q1": {
+        "question": "有哪些付費方案？",
+        "answer": "我們提供入門版（NT$ 990/月）、專業版（NT$ 2990/月）和企業版（客製化價格）三種方案，滿足不同規模使用者的需求。"
+      },
+      "q2": {
+        "question": "可以隨時取消訂閱嗎？",
+        "answer": "是的，您可以隨時取消訂閱。取消後，您的帳戶將在當前計費週期結束時降級為免費方案。"
+      },
+      "q3": {
+        "question": "是否提供教育折扣？",
+        "answer": "我們為學生和教育機構提供 50% 的教育折扣。請聯絡我們的銷售團隊了解詳情。"
+      }
+    },
+    "technical": {
+      "title": "技術問題",
+      "q1": {
+        "question": "支援哪些框架和技術堆疊？",
+        "answer": "我們支援 React、Vue、Angular 等主流前端框架，以及 Next.js、Nuxt.js 等全端框架。"
+      },
+      "q2": {
+        "question": "如何整合到現有專案中？",
+        "answer": "透過我們的 CLI 工具或 npm 套件，您可以輕鬆將 Morning AI 元件整合到現有專案中，無需重構現有程式碼。"
+      },
+      "q3": {
+        "question": "是否支援 TypeScript？",
+        "answer": "是的，我們的所有元件都提供完整的 TypeScript 類型定義，確保類型安全和更好的開發體驗。"
+      }
+    },
+    "support": {
+      "title": "支援問題",
+      "q1": {
+        "question": "技術支援如何提供？",
+        "answer": "我們提供多層級的技術支援：免費使用者可使用社群論壇，付費使用者享有電子郵件支援，企業客戶則有專屬的客戶成功經理。"
+      },
+      "q2": {
+        "question": "回應時間是多久？",
+        "answer": "免費使用者透過社群支援，通常 24-48 小時內回覆；付費使用者電子郵件支援 12 小時內回覆；企業客戶享有 4 小時內回應的 SLA。"
+      },
+      "q3": {
+        "question": "資料安全如何保障？",
+        "answer": "我們採用業界標準的安全措施，包括 SOC 2 Type II 認證、端到端加密，以及定期的安全稽核，確保您的資料安全。"
+      }
+    },
+    "search": {
+      "title": "沒找到您要的答案？",
+      "placeholder": "搜尋常見問題..."
+    },
+    "contact": {
+      "title": "仍有疑問？",
+      "description": "如果您沒有找到需要的答案，我們的支援團隊隨時為您提供協助。",
+      "support": "聯絡支援團隊"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "聯絡我們",
+      "description": "有任何問題或需要協助嗎？我們的團隊隨時為您提供支援。"
+    },
+    "form": {
+      "title": "發送訊息",
+      "name": "姓名",
+      "namePlaceholder": "請輸入您的姓名",
+      "email": "電子郵件",
+      "emailPlaceholder": "請輸入您的電子郵件",
+      "subject": "主旨",
+      "subjectPlaceholder": "請選擇主旨",
+      "message": "訊息內容",
+      "messagePlaceholder": "請詳細描述您的問題或需求",
+      "submit": "發送訊息"
+    },
+    "info": {
+      "title": "聯絡資訊",
+      "email": {
+        "title": "電子郵件",
+        "value": "hello@morningai.com"
+      },
+      "phone": {
+        "title": "電話",
+        "value": "+886-2-1234-5678"
+      },
+      "address": {
+        "title": "地址",
+        "value": "台北市信義區信義路五段7號"
+      }
+    },
+    "hours": {
+      "title": "營業時間",
+      "weekdays": "週一至週五",
+      "weekdaysTime": "09:00 - 18:00",
+      "weekend": "週末",
+      "weekendTime": "休息"
+    }
+  },
+  "demo": {
+    "title": "產品示範",
+    "subtitle": "親身體驗 Morning AI 的強大功能，看看我們如何改變您的開發流程。",
+    "hero": {
+      "title": "產品示範",
+      "description": "親身體驗 Morning AI 的強大功能，看看我們如何改變您的開發流程。",
+      "cta": "開始體驗"
+    },
+    "features": {
+      "design": {
+        "title": "智能設計",
+        "description": "AI 驅動的設計工具，自動生成美觀且功能完整的界面。"
+      },
+      "speed": {
+        "title": "極速開發",
+        "description": "大幅提升開發效率，快速建構高品質的產品原型。"
+      },
+      "tools": {
+        "title": "完整工具",
+        "description": "提供完整的開發工具鏈，從設計到部署一站式解決方案。"
+      }
+    },
+    "aiDesign": {
+      "title": "AI 智能設計",
+      "description": "體驗 AI 驅動的設計工具，自動生成美觀且功能完整的界面。",
+      "feature1": "智能佈局建議",
+      "feature2": "自動色彩搭配",
+      "feature3": "響應式設計優化"
+    },
+    "componentLibrary": {
+      "title": "元件庫展示",
+      "description": "探索我們豐富的 UI 元件庫，每個元件都經過精心設計和測試。",
+      "feature1": "16+ 響應式元件",
+      "feature2": "完整的設計代幣",
+      "feature3": "無障礙性支援"
+    },
+    "workflow": {
+      "title": "開發流程",
+      "description": "了解如何使用 Morning AI 優化您的開發工作流程。",
+      "feature1": "快速原型建立",
+      "feature2": "自動代碼生成",
+      "feature3": "即時預覽更新"
+    },
+    "interactive": {
+      "title": "互動式示範",
+      "description": "點擊下方元件，體驗我們設計系統的強大功能。",
+      "startTrial": "開始免費試用",
+      "scheduleDemo": "預約產品示範"
+    },
+    "cta": {
+      "title": "準備開始使用了嗎？",
+      "description": "立即註冊，開始您的 Morning AI 之旅。"
+    }
+  },
+  "privacy": {
+    "title": "隱私政策",
+    "lastUpdated": "最後更新",
+    "lastUpdatedDate": "2025年1月1日",
+    "introduction": {
+      "title": "隱私政策簡介",
+      "content": "本隱私政策說明 Morning AI 如何收集、使用和保護您的個人資訊。我們致力於保護您的隱私權，並確保您的個人資料得到適當的保護。"
+    },
+    "tableOfContents": "目錄",
+    "dataCollection": {
+      "title": "資料收集",
+      "content": "我們收集您直接提供給我們的資訊，例如當您建立帳戶、使用我們的服務或聯絡我們尋求支援時。",
+      "item1": "帳戶資訊：姓名、電子郵件地址、密碼等註冊資訊",
+      "item2": "使用資料：您如何使用我們的服務、功能使用情況、操作記錄",
+      "item3": "技術資訊：IP 地址、瀏覽器類型、設備資訊、作業系統",
+      "item4": "通訊記錄：與我們的客服或支援團隊的互動記錄"
+    },
+    "dataUsage": {
+      "title": "資料使用",
+      "content": "我們使用收集的資訊來提供、維護和改善我們的服務，處理交易並與您溝通。",
+      "item1": "提供和維護我們的服務功能",
+      "item2": "處理您的交易和訂閱",
+      "item3": "改善我們的產品和用戶體驗"
+    },
+    "dataSharing": {
+      "title": "資料分享",
+      "content": "我們不會在未經您同意的情況下向第三方出售、交易或轉讓您的個人資訊，除非本政策中另有說明。我們僅在法律要求或保護我們權利時才會分享您的資訊。"
+    },
+    "userRights": {
+      "title": "您的權利",
+      "content": "您有權存取、更新或刪除您的個人資訊。您也可以選擇不接收我們的某些通訊。",
+      "item1": "存取權：您可以要求查看我們持有的您的個人資料",
+      "item2": "更正權：您可以要求更正不準確或不完整的資料",
+      "item3": "刪除權：您可以要求刪除您的個人資料",
+      "item4": "拒絕權：您可以拒絕某些資料處理活動"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "description": "如果您對本隱私政策有任何疑問或需要協助，請透過以下方式聯絡我們：",
+      "email": "電子郵件",
+      "address": "地址",
+      "addressValue": "台北市信義區信義路五段7號",
+      "phone": "電話",
+      "phoneValue": "+886-2-1234-5678",
+      "content": "如果您對本隱私政策有任何疑問或需要協助，請透過 privacy@morningai.com 聯絡我們。"
+    },
+    "updates": {
+      "title": "政策更新",
+      "content": "我們可能會不時更新本隱私政策。重大變更將會透過電子郵件或網站公告通知您。"
+    }
+  },
+  "terms": {
+    "title": "服務條款",
+    "lastUpdated": "最後更新",
+    "lastUpdatedDate": "2025年1月1日",
+    "introduction": "歡迎使用 Morning AI 服務。使用我們的服務即表示您同意遵守以下條款和條件。",
+    "tableOfContents": "目錄",
+    "acceptance": {
+      "title": "條款接受",
+      "content": "透過存取或使用 Morning AI 的服務，您確認已閱讀、理解並同意受本服務條款約束。如果您不同意這些條款，請勿使用我們的服務。\n\n本條款構成您與 Morning AI 之間具有法律約束力的協議。我們保留隨時修改這些條款的權利，修改後的條款將在網站上公布後生效。"
+    },
+    "services": {
+      "title": "服務描述",
+      "content": "Morning AI 提供基於人工智慧的 SaaS 平台服務，包括但不限於：AI 驅動的設計工具、元件庫、開發工作流程優化等功能。我們致力於提供高品質、可靠的服務。\n\n服務內容可能會根據技術發展和市場需求進行調整。我們會盡力提前通知重大變更，但保留隨時修改或終止特定功能的權利。",
+      "item1": "AI 驅動的智能設計工具和自動化功能",
+      "item2": "完整的 UI 元件庫和設計系統",
+      "item3": "開發工作流程優化和協作平台"
+    },
+    "userAccounts": {
+      "title": "用戶帳戶",
+      "content": "使用某些服務功能需要建立帳戶。您有責任維護帳戶資訊的準確性和安全性，包括選擇強密碼並定期更新。您不得與他人分享帳戶憑證。\n\n您對透過您帳戶進行的所有活動負責。如發現未經授權的使用，請立即通知我們。我們保留暫停或終止違反條款的帳戶的權利。"
+    },
+    "acceptableUse": {
+      "title": "可接受使用",
+      "content": "您同意僅將我們的服務用於合法目的。禁止的行為包括但不限於：上傳惡意軟體或病毒、進行未經授權的存取嘗試、騷擾其他用戶、侵犯智慧財產權、從事欺詐活動。\n\n我們保留監控使用情況並採取適當行動（包括暫停服務）來防止濫用的權利。違反使用政策可能導致帳戶終止和法律後果。"
+    },
+    "intellectualProperty": {
+      "title": "智慧財產權",
+      "content": "Morning AI 服務及其所有內容、功能和技術均為 Morning AI 或其授權方的財產，受著作權、商標和其他智慧財產權法律保護。\n\n您獲得有限的、非獨占的、不可轉讓的許可來使用服務。您不得複製、修改、分發或創建衍生作品。您透過服務創建的內容歸您所有，但您授予我們提供服務所需的許可。"
+    },
+    "paymentTerms": {
+      "title": "付款條款",
+      "content": "付費服務的費用將根據您選擇的計劃收取。所有費用均以新台幣計價，除非另有說明。訂閱費用將按月或按年預先收取。\n\n我們接受信用卡和其他指定的付款方式。未能及時付款可能導致服務暫停。退款政策詳見我們的退款條款，某些費用可能不可退還。"
+    },
+    "privacy": {
+      "title": "隱私保護",
+      "content": "您的隱私對我們很重要。我們的隱私政策詳細說明了我們如何收集、使用和保護您的個人資訊。使用我們的服務即表示您同意我們的隱私政策。\n\n我們承諾保護您的資料安全，並僅在提供服務所需的範圍內使用您的資訊。我們不會向第三方出售您的個人資訊。"
+    },
+    "disclaimers": {
+      "title": "免責聲明",
+      "content": "服務按「現狀」提供，不提供任何明示或暗示的保證。我們不保證服務將不間斷、無錯誤或完全安全。您使用服務的風險由您自行承擔。\n\n我們不對因使用或無法使用服務而造成的任何直接、間接、偶然或後果性損害承擔責任。這包括但不限於資料遺失、業務中斷或利潤損失。"
+    },
+    "limitationLiability": {
+      "title": "責任限制",
+      "content": "在法律允許的最大範圍內，Morning AI 對任何損害的總責任不超過您在發生損害前 12 個月內支付給我們的費用總額。\n\n此責任限制適用於所有損害類型，無論是基於合約、侵權或其他法律理論。某些司法管轄區不允許排除或限制某些損害，因此上述限制可能不適用於您。"
+    },
+    "termination": {
+      "title": "服務終止",
+      "content": "您可以隨時停止使用我們的服務並刪除您的帳戶。我們也保留因違反條款、長期不活躍或其他合理原因而暫停或終止您帳戶的權利。\n\n終止後，您使用服務的權利將立即停止。我們可能會保留某些資訊以遵守法律義務或解決爭議。終止不會影響任何一方在終止前產生的權利和義務。"
+    },
+    "governingLaw": {
+      "title": "適用法律",
+      "content": "本條款受中華民國法律管轄並依其解釋，不考慮法律衝突原則。任何爭議應首先透過善意協商解決。\n\n如協商無法解決爭議，雙方同意將爭議提交台北地方法院管轄。您同意放棄任何關於不便法院或缺乏管轄權的異議。"
+    },
+    "changes": {
+      "title": "條款變更",
+      "content": "我們保留隨時修改本服務條款的權利。重大變更將透過電子郵件或服務內通知告知您。修改後的條款將在公布後立即生效。\n\n繼續使用服務即表示您接受修改後的條款。如果您不同意變更，應停止使用服務。建議您定期查看條款以了解最新變更。"
+    },
+    "contact": {
+      "title": "聯絡我們",
+      "description": "如果您對本服務條款有任何疑問，請透過以下方式聯絡我們：",
+      "email": "電子郵件",
+      "address": "地址",
+      "addressValue": "台北市信義區信義路五段 7 號",
+      "phone": "電話",
+      "phoneValue": "+886-2-1234-5678",
+      "content": "If you have any questions about these Terms, please contact us at legal@morningai.com."
+    },
+    "userResponsibilities": {
+      "title": "用戶責任",
+      "content": "您有責任維護帳戶和密碼的機密性，並限制對您電腦的存取。您同意對透過您帳戶進行的所有活動承擔責任。",
+      "item1": "維護帳戶資訊的準確性和安全性",
+      "item2": "遵守所有適用的法律法規",
+      "item3": "不得濫用或干擾服務的正常運作",
+      "item4": "尊重其他用戶的權利和隱私"
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "In no event shall Morning AI be liable for any indirect, incidental, special, consequential, or punitive damages."
+    }
+  },
+  "i18nDemo": {
+    "title": "多語言示範",
+    "description": "展示 Morning AI 的多語言支援功能"
+  },
+  "hero": {
+    "title": "Powerful Features, Unlimited Possibilities",
+    "subtitle": "Explore Morning AI's complete feature suite, from intelligent design systems to enterprise-grade solutions. We provide all the tools you need for success.",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "View Demo"
+    }
+  },
+  "Locale": "en"
+}
