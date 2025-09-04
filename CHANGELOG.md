@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/RC918/morningai-web/compare/v1.3.3...v1.3.4) (2025-09-04)
+
+
+### Bug Fixes
+
+* **e2e:** update E2E tests to match new Morning AI content ([7f0a647](https://github.com/RC918/morningai-web/commit/7f0a6471dee3b2434b0b095be322b3b12de38a42))
+
 ## [1.3.3](https://github.com/RC918/morningai-web/compare/v1.3.2...v1.3.3) (2025-09-04)
 
 
