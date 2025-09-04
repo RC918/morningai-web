@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/RC918/morningai-web/compare/v1.2.0...v1.2.1) (2025-09-04)
+
+
+### Bug Fixes
+
+* **ci:** resolve all CI/CD issues ([e76aac4](https://github.com/RC918/morningai-web/commit/e76aac4f5f28cad6728b6e4b7585994e5d2d57ea))
+
 # [1.2.0](https://github.com/RC918/morningai-web/compare/v1.1.4...v1.2.0) (2025-09-04)
 
 
