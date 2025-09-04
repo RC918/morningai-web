@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/RC918/morningai-web/compare/v1.4.0...v1.4.1) (2025-09-04)
+
+
+### Bug Fixes
+
+* **e2e:** remove networkidle usage and fix formatting issues ([5b3fddb](https://github.com/RC918/morningai-web/commit/5b3fddb52b4ceb47ae4acb35a7348497c2a7a21f))
+
 # [1.4.0](https://github.com/RC918/morningai-web/compare/v1.3.4...v1.4.0) (2025-09-04)
 
 
