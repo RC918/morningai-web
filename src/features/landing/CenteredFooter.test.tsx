@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import { NextIntlClientProvider } from 'next-intl';
 import type { AbstractIntlMessages } from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
 
 import messages from '@/locales/en.json';
 
