@@ -2,7 +2,7 @@ export const locales = ['en', 'zh-TW', 'zh-CN'] as const;
 export type Locale = typeof locales[number];
 
 export const heroCopy: Record<Locale, { heading: RegExp; description?: RegExp }> = {
-  en: {
+  'en': {
     heading: /We Create Intelligent Design.+AI Tools/i,
     description: /intelligent solution platform|design system.+AI workflow/i,
   },
@@ -17,7 +17,7 @@ export const heroCopy: Record<Locale, { heading: RegExp; description?: RegExp }>
 };
 
 export const buttonCopy: Record<Locale, { cta: RegExp; demo: RegExp }> = {
-  en: {
+  'en': {
     cta: /Get Started|Start Now/i,
     demo: /Contact Us|Contact/i,
   },
@@ -30,4 +30,3 @@ export const buttonCopy: Record<Locale, { cta: RegExp; demo: RegExp }> = {
     demo: /联系客服|联系我们/,
   },
 };
-

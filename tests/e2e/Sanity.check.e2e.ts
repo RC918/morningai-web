@@ -16,20 +16,21 @@ test.describe('Sanity', () => {
   test.describe('Static pages', () => {
     test('should display the homepage with correct branding', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/zh-TW`);
-      await page.waitForLoadState('networkidle');
+      await page.waitForLoadState('domcontentloaded');
 
       // 檢查Morning AI品牌是否顯示
       await expect(page.getByRole('link', { name: 'Morning AI' })).toBeVisible();
-      
+
       // 檢查主要標題是否顯示（使用語義選擇器）
       const mainHeading = page.locator('h1').first();
+
       await expect(mainHeading).toBeVisible();
       await expect(mainHeading).toContainText('AI');
     });
 
     test('should have working navigation', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/zh-TW`);
-      await page.waitForLoadState('networkidle');
+      await page.waitForLoadState('domcontentloaded');
 
       // 檢查主要導航連結
       await expect(page.getByRole('link', { name: '產品' })).toBeVisible();

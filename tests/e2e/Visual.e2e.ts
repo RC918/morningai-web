@@ -5,10 +5,11 @@ test.describe('Visual testing', () => {
   test.describe('Static pages', () => {
     test('should take screenshot of the Traditional Chinese homepage', async ({ page }) => {
       await page.goto('/zh-TW');
-      await page.waitForLoadState('networkidle');
+      await page.waitForLoadState('domcontentloaded');
 
       // 確保主要內容已載入
       const mainHeading = page.locator('h1').first();
+
       await expect(mainHeading).toBeVisible();
       await expect(mainHeading).toContainText('AI');
 
@@ -17,10 +18,11 @@ test.describe('Visual testing', () => {
 
     test('should take screenshot of the Simplified Chinese homepage', async ({ page }) => {
       await page.goto('/zh-CN');
-      await page.waitForLoadState('networkidle');
+      await page.waitForLoadState('domcontentloaded');
 
       // 確保主要內容已載入
       const mainHeading = page.locator('h1').first();
+
       await expect(mainHeading).toBeVisible();
       await expect(mainHeading).toContainText('AI');
 
@@ -29,10 +31,11 @@ test.describe('Visual testing', () => {
 
     test('should take screenshot of the English homepage', async ({ page }) => {
       await page.goto('/en');
-      await page.waitForLoadState('networkidle');
+      await page.waitForLoadState('domcontentloaded');
 
       // 確保主要內容已載入
       const mainHeading = page.locator('h1').first();
+
       await expect(mainHeading).toBeVisible();
       await expect(mainHeading).toContainText('AI');
 
