@@ -21,6 +21,7 @@ export const Pricing = () => {
             [PLAN_ID.FREE]: (
               <Link
                 className={buttonVariants({
+                  variant: 'cta-secondary',
                   size: 'sm',
                   className: 'mt-5 w-full',
                 })}
@@ -32,6 +33,7 @@ export const Pricing = () => {
             [PLAN_ID.PREMIUM]: (
               <Link
                 className={buttonVariants({
+                  variant: 'cta-primary',
                   size: 'sm',
                   className: 'mt-5 w-full',
                 })}
@@ -43,6 +45,7 @@ export const Pricing = () => {
             [PLAN_ID.ENTERPRISE]: (
               <Link
                 className={buttonVariants({
+                  variant: 'cta-secondary',
                   size: 'sm',
                   className: 'mt-5 w-full',
                 })}
@@ -67,13 +70,13 @@ export const Pricing = () => {
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/faq"
-              className={buttonVariants({ variant: 'outline', size: 'lg' })}
+              className={buttonVariants({ variant: 'cta-secondary', size: 'lg' })}
             >
               View FAQ
             </Link>
             <Link
               href="/contact"
-              className={buttonVariants({ size: 'lg' })}
+              className={buttonVariants({ variant: 'cta-primary', size: 'lg' })}
             >
               Contact Sales
             </Link>
