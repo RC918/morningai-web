@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/RC918/morningai-web/compare/v1.3.1...v1.3.2) (2025-09-04)
+
+
+### Bug Fixes
+
+* **e2e:** complete E2E test configuration overhaul ([2029722](https://github.com/RC918/morningai-web/commit/20297222724a62a298928f1e5aab4bd23df27b8f))
+
 ## [1.3.1](https://github.com/RC918/morningai-web/compare/v1.3.0...v1.3.1) (2025-09-04)
 
 
