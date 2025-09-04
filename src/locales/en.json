@@ -771,7 +771,7 @@
       "title": "Contact Us",
       "description": "If you have any questions about this privacy policy or need assistance, please contact us through the following methods:",
       "email": "Email",
-      "address": "Address", 
+      "address": "Address",
       "addressValue": "No. 7, Section 5, Xinyi Road, Xinyi District, Taipei City",
       "phone": "Phone",
       "phoneValue": "+1-555-123-4567",
@@ -874,5 +874,34 @@
       "secondary": "View Demo"
     }
   },
-  "Locale": "en"
+  "Locale": "en",
+  "Index": {
+    "meta_title": "Morning AI - Intelligent SaaS Platform",
+    "meta_description": "Morning AI provides advanced artificial intelligence solutions to help enterprises improve efficiency and innovation capabilities. Experience our intelligent design system and component library."
+  },
+  "Navbar": {
+    "product": "Product",
+    "docs": "Docs",
+    "blog": "Blog",
+    "community": "Community",
+    "company": "Company",
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up"
+  },
+  "Footer": {
+    "product": "Product",
+    "docs": "Docs",
+    "blog": "Blog",
+    "community": "Community",
+    "company": "Company",
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy"
+  },
+  "FAQ": {
+    "question": "Frequently Asked Questions"
+  },
+  "CTA": {
+    "title": "Ready to Get Started?",
+    "description": "Start using Morning AI now and experience the new realm of intelligent development."
+  }
 }

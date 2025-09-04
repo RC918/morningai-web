@@ -789,5 +789,16 @@
       "secondary": "View Demo"
     }
   },
-  "Locale": "en"
+  "Locale": "zh-CN",
+  "Index": {
+    "meta_title": "Morning AI - 智能 SaaS 平台",
+    "meta_description": "Morning AI 提供先进的人工智能解决方案，帮助企业提升效率和创新能力。体验我们的智能设计系统和组件库。"
+  },
+  "FAQ": {
+    "question": "常见问题"
+  },
+  "CTA": {
+    "title": "准备开始了吗？",
+    "description": "立即开始使用 Morning AI，体验智能开发的新境界。"
+  }
 }
