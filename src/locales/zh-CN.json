@@ -1,5 +1,14 @@
 {
   "LANG_CHECK": "简中 OK",
+  "Navbar": {
+    "product": "产品",
+    "docs": "文档",
+    "blog": "博客",
+    "community": "社区",
+    "company": "公司",
+    "sign_in": "登录",
+    "sign_up": "注册"
+  },
   "Hero": {
     "follow_twitter": "在 Twitter 上关注我们",
     "title": "我们创造智能<important>设计与 AI 工具</important>",
@@ -38,6 +47,15 @@
     "feature_storage": "存储空间",
     "feature_transfer": "传输量",
     "feature_email_support": "电子邮件支持"
+  },
+  "Footer": {
+    "product": "产品",
+    "docs": "文档",
+    "blog": "博客",
+    "community": "社区",
+    "company": "公司",
+    "terms_of_service": "服务条款",
+    "privacy_policy": "隐私政策"
   },
   "common": {
     "title": "强大功能，无限可能",

@@ -1,5 +1,14 @@
 {
   "LANG_CHECK": "繁中 OK",
+  "Navbar": {
+    "product": "產品",
+    "docs": "文檔",
+    "blog": "部落格",
+    "community": "社群",
+    "company": "公司",
+    "sign_in": "登入",
+    "sign_up": "註冊"
+  },
   "Hero": {
     "follow_twitter": "在 Twitter 上關注我們",
     "title": "我們創造智能<important>設計與 AI 工具</important>",
@@ -38,6 +47,15 @@
     "feature_storage": "儲存空間",
     "feature_transfer": "傳輸量",
     "feature_email_support": "電子郵件支援"
+  },
+  "Footer": {
+    "product": "產品",
+    "docs": "文檔",
+    "blog": "部落格",
+    "community": "社群",
+    "company": "公司",
+    "terms_of_service": "服務條款",
+    "privacy_policy": "隱私政策"
   },
   "common": {
     "title": "強大功能，無限可能",
