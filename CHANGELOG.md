@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/RC918/morningai-web/compare/v1.1.2...v1.1.3) (2025-09-04)
+
+
+### Bug Fixes
+
+* **ci:** resolve ESLint errors and TypeScript issues ([41ac3cf](https://github.com/RC918/morningai-web/commit/41ac3cf496805215e8d829d12f5b4c1c275fb182))
+
 ## [1.1.2](https://github.com/RC918/morningai-web/compare/v1.1.1...v1.1.2) (2025-09-04)
 
 
