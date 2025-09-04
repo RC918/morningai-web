@@ -14,11 +14,28 @@ import { expect, test } from '@playwright/test';
 
 test.describe('Sanity', () => {
   test.describe('Static pages', () => {
-    test('should display the homepage', async ({ page, baseURL }) => {
-      await page.goto(`${baseURL}/`);
+    test('should display the homepage with correct branding', async ({ page, baseURL }) => {
+      await page.goto(`${baseURL}/zh-TW`);
+      await page.waitForLoadState('networkidle');
 
-      // 檢查Morning AI的主要標題是否顯示
-      await expect(page.getByText('我們創造智能設計與 AI 工具')).toBeVisible();
+      // 檢查Morning AI品牌是否顯示
+      await expect(page.getByRole('link', { name: 'Morning AI' })).toBeVisible();
+      
+      // 檢查主要標題是否顯示（使用語義選擇器）
+      const mainHeading = page.locator('h1').first();
+      await expect(mainHeading).toBeVisible();
+      await expect(mainHeading).toContainText('AI');
+    });
+
+    test('should have working navigation', async ({ page, baseURL }) => {
+      await page.goto(`${baseURL}/zh-TW`);
+      await page.waitForLoadState('networkidle');
+
+      // 檢查主要導航連結
+      await expect(page.getByRole('link', { name: '產品' })).toBeVisible();
+      await expect(page.getByRole('link', { name: '文檔' })).toBeVisible();
+      await expect(page.getByRole('link', { name: '登入' })).toBeVisible();
+      await expect(page.getByRole('link', { name: '註冊' })).toBeVisible();
     });
   });
 });

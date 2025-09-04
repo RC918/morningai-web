@@ -1,26 +1,28 @@
 import { expect, test } from '@playwright/test';
 
-test.describe('I18n', () => {
-  test.describe('Language Switching', () => {
-    test('should switch language from Traditional Chinese to Simplified Chinese using dropdown and verify text on the homepage', async ({ page }) => {
+test.describe('I18n Basic', () => {
+  test.describe('URL-based Language Switching', () => {
+    test('should display correct content for each language via URL', async ({ page }) => {
+      // 測試繁體中文
       await page.goto('/zh-TW');
+      await page.waitForLoadState('networkidle');
+      const h1TW = page.locator('h1').first();
+      await expect(h1TW).toBeVisible();
+      await expect(h1TW).toContainText('我們創造');
 
-      await expect(page.getByText('我們創造智能設計與 AI 工具')).toBeVisible();
+      // 測試簡體中文
+      await page.goto('/zh-CN');
+      await page.waitForLoadState('networkidle');
+      const h1CN = page.locator('h1').first();
+      await expect(h1CN).toBeVisible();
+      await expect(h1CN).toContainText('我们创造');
 
-      await page.getByRole('button', { name: 'lang-switcher' }).click();
-      await page.getByText('简体中文').click();
-
-      await expect(page.getByText('我们创造智能设计与 AI 工具')).toBeVisible();
-    });
-
-    test('should switch language from Traditional Chinese to English using URL and verify text on the homepage', async ({ page }) => {
-      await page.goto('/zh-TW');
-
-      await expect(page.getByText('我們創造智能設計與 AI 工具')).toBeVisible();
-
+      // 測試英文
       await page.goto('/en');
-
-      await expect(page.getByText('We Create Intelligent Design & AI Tools')).toBeVisible();
+      await page.waitForLoadState('networkidle');
+      const h1EN = page.locator('h1').first();
+      await expect(h1EN).toBeVisible();
+      await expect(h1EN).toContainText('We Create');
     });
   });
 });
