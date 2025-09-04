@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/RC918/morningai-web/compare/v1.1.3...v1.1.4) (2025-09-04)
+
+
+### Bug Fixes
+
+* **ci:** resolve import order issue in test file ([e11c2ad](https://github.com/RC918/morningai-web/commit/e11c2ade61da29b7c025793c4209c25954f7022f))
+
 ## [1.1.3](https://github.com/RC918/morningai-web/compare/v1.1.2...v1.1.3) (2025-09-04)
 
 
