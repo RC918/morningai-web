@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/RC918/morningai-web/compare/v1.2.1...v1.2.2) (2025-09-04)
+
+
+### Bug Fixes
+
+* **ci:** disable problematic Storybook and E2E tests ([f8dbbea](https://github.com/RC918/morningai-web/commit/f8dbbea13488d0fe9fe3dd5dc7fa7d663d7e41b7))
+
 ## [1.2.1](https://github.com/RC918/morningai-web/compare/v1.2.0...v1.2.1) (2025-09-04)
 
 
