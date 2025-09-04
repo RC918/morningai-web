@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/RC918/morningai-web/compare/v1.0.0...v1.1.0) (2025-09-04)
+
+
+### Bug Fixes
+
+* Add missing shadcn UI components ([db317a4](https://github.com/RC918/morningai-web/commit/db317a43b8184c24e1902488a0b078f3784b0dba))
+
+
+### Features
+
+* Complete Phase 2 Final website with all required pages ([0c2b826](https://github.com/RC918/morningai-web/commit/0c2b82694daada0e02c5ad2c2a9a47d56f8a809f))
+
 # 1.0.0 (2025-09-04)
 
 
