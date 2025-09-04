@@ -16,11 +16,10 @@ export default defineConfig({
     viewport: { width: 1280, height: 900 },
   },
   webServer: {
-    command: 'pnpm build && pnpm start -p ' + PORT,   // 先 build 再 start（避免 dev 崩掉）
+    command: `pnpm build && pnpm start -p ${PORT}`,
     url: BASE_URL,
     timeout: 120_000,
     reuseExistingServer: !process.env.CI,
   },
   reporter: [['html', { outputFolder: 'playwright-report' }], ['list']],
 });
-
