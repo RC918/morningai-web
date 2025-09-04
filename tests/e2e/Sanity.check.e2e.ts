@@ -17,7 +17,8 @@ test.describe('Sanity', () => {
     test('should display the homepage', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/`);
 
-      await expect(page.getByText('The perfect SaaS template to build')).toBeVisible();
+      // 檢查Morning AI的主要標題是否顯示
+      await expect(page.getByText('我們創造智能設計與 AI 工具')).toBeVisible();
     });
   });
 });
