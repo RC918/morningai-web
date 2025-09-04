@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/RC918/morningai-web/compare/v1.5.0...v1.6.0) (2025-09-04)
+
+
+### Features
+
+* implement Primary/Secondary CTA button styles ([fee14c4](https://github.com/RC918/morningai-web/commit/fee14c45216b47c0b777b8de320a55f23f12dbd9)), closes [#0F172](https://github.com/RC918/morningai-web/issues/0F172) [#0F172](https://github.com/RC918/morningai-web/issues/0F172)
+
 # [1.5.0](https://github.com/RC918/morningai-web/compare/v1.4.1...v1.5.0) (2025-09-04)
 
 
