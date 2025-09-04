@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/RC918/morningai-web/compare/v1.1.1...v1.1.2) (2025-09-04)
+
+
+### Bug Fixes
+
+* **i18n:** add missing translation namespaces and remove duplicates ([5b1e011](https://github.com/RC918/morningai-web/commit/5b1e011e3d1f4f63b113a3ff73e2e4c96af01fbf))
+
 ## [1.1.1](https://github.com/RC918/morningai-web/compare/v1.1.0...v1.1.1) (2025-09-04)
 
 
