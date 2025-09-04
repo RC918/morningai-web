@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/RC918/morningai-web/compare/v1.3.0...v1.3.1) (2025-09-04)
+
+
+### Bug Fixes
+
+* **lint:** remove trailing spaces and format code ([4e41c06](https://github.com/RC918/morningai-web/commit/4e41c061fccde43145c86f6dfe5c03b9fd748421))
+
 # [1.3.0](https://github.com/RC918/morningai-web/compare/v1.2.2...v1.3.0) (2025-09-04)
 
 
