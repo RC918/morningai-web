@@ -5,7 +5,7 @@ import { StickyBanner } from '@/features/landing/StickyBanner';
 
 export const DemoBanner = () => {
   const t = useTranslations('DemoBanner');
-  
+
   return (
     <StickyBanner>
       {t('title')}
