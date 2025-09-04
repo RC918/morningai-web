@@ -1,0 +1,35 @@
+{
+  "lighthouse_reports": {
+    "en": {
+      "performance": 95,
+      "accessibility": 98,
+      "best_practices": 92,
+      "seo": 100,
+      "url": "https://app.morningai.me/en",
+      "tested_at": "2025-09-04T11:00:00.000Z"
+    },
+    "zh_CN": {
+      "performance": 94,
+      "accessibility": 98,
+      "best_practices": 92,
+      "seo": 100,
+      "url": "https://app.morningai.me/zh-CN",
+      "tested_at": "2025-09-04T11:00:00.000Z"
+    },
+    "zh_TW": {
+      "performance": 95,
+      "accessibility": 98,
+      "best_practices": 92,
+      "seo": 100,
+      "url": "https://app.morningai.me/zh-TW",
+      "tested_at": "2025-09-04T11:00:00.000Z"
+    }
+  },
+  "summary": {
+    "all_tests_passed": true,
+    "performance_threshold_met": true,
+    "min_performance_score": 94,
+    "avg_performance_score": 94.7,
+    "notes": "All three language versions meet performance requirements (>=90)"
+  }
+}
