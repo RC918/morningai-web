@@ -1,5 +1,44 @@
 {
   "LANG_CHECK": "简中 OK",
+  "Hero": {
+    "follow_twitter": "在 Twitter 上关注我们",
+    "title": "我们创造智能<important>设计与 AI 工具</important>",
+    "description": "一个智能解决方案平台，结合设计系统与 AI 工作流程，帮助团队更快地交付美丽的产品。",
+    "primary_button": "立即开始",
+    "secondary_button": "预约演示"
+  },
+  "Features": {
+    "section_subtitle": "强大功能",
+    "section_title": "构建、测试与发布所需的一切",
+    "section_description": "探索我们完整的功能套件，从智能设计系统到企业级解决方案。",
+    "feature1_title": "AI 设计助手",
+    "feature2_title": "生产级组件库",
+    "feature3_title": "工作流程自动化",
+    "feature4_title": "多语言与 SEO",
+    "feature5_title": "分析与洞察",
+    "feature6_title": "安全与合规",
+    "feature_description": "强大的功能帮助您更快地构建美丽的产品。"
+  },
+  "Pricing": {
+    "section_subtitle": "简单定价",
+    "section_title": "随您扩展的简单定价",
+    "section_description": "免费开始。准备好时再升级。",
+    "button_text": "立即开始"
+  },
+  "PricingPlan": {
+    "free_plan_name": "基础版",
+    "free_plan_description": "适合入门使用",
+    "premium_plan_name": "专业版",
+    "premium_plan_description": "最受欢迎的选择",
+    "enterprise_plan_name": "企业版",
+    "enterprise_plan_description": "适合大型组织",
+    "plan_interval_month": "月",
+    "feature_team_member": "团队成员",
+    "feature_website": "网站",
+    "feature_storage": "存储空间",
+    "feature_transfer": "传输量",
+    "feature_email_support": "电子邮件支持"
+  },
   "common": {
     "title": "强大功能，无限可能",
     "description": "探索 Morning AI 的完整功能套件，从智能设计系统到企业级解决方案，我们提供您成功所需的一切工具。",
