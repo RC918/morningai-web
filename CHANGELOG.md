@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/RC918/morningai-web/compare/v1.3.4...v1.4.0) (2025-09-04)
+
+
+### Features
+
+* **e2e:** implement i18n-aware testing system ([db6ec7c](https://github.com/RC918/morningai-web/commit/db6ec7ca763848d54bb33f48447ad2ad44ed8b32))
+
 ## [1.3.4](https://github.com/RC918/morningai-web/compare/v1.3.3...v1.3.4) (2025-09-04)
 
 
