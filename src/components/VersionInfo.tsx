@@ -25,8 +25,8 @@ export const VersionInfo = () => {
           setVersionData(data);
         }
       } catch (error) {
-        // 在測試環境中不輸出錯誤
-        if (process.env.NODE_ENV !== 'test') {
+        // 在測試環境中完全靜默
+        if (process.env.NODE_ENV !== 'test' && typeof window !== 'undefined') {
           console.error('Failed to fetch version data:', error);
         }
       }
