@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/RC918/morningai-web/compare/v1.1.4...v1.2.0) (2025-09-04)
+
+
+### Bug Fixes
+
+* **tests:** resolve all test failures and CI issues ([1f481b2](https://github.com/RC918/morningai-web/commit/1f481b20037d794cf37dc65f961bc938036586f3))
+
+
+### Features
+
+* add evidence files to public directory ([fc15a76](https://github.com/RC918/morningai-web/commit/fc15a767555db822645cc9139b5ead97822f008c))
+
 ## [1.1.4](https://github.com/RC918/morningai-web/compare/v1.1.3...v1.1.4) (2025-09-04)
 
 
