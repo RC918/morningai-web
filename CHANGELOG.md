@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/RC918/morningai-web/compare/v1.1.0...v1.1.1) (2025-09-04)
+
+
+### Bug Fixes
+
+* Add missing i18n keys for Hero, Features, and Pricing components ([ff1ea04](https://github.com/RC918/morningai-web/commit/ff1ea04c8d5e6d61b1cb788ee6ff452fe4c80cf5))
+* Add Navbar and Footer i18n translations for zh-TW and zh-CN ([f8d1c61](https://github.com/RC918/morningai-web/commit/f8d1c6189ab140549f44fa49f61c47bf32d79545))
+* Disable Crowdin auto-trigger, manual only until secrets configured ([16ed4b7](https://github.com/RC918/morningai-web/commit/16ed4b71f4eafe8d6d3d6c0431fffe11946fdaba))
+
 # [1.1.0](https://github.com/RC918/morningai-web/compare/v1.0.0...v1.1.0) (2025-09-04)
 
 
