@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/RC918/morningai-web/compare/v1.4.1...v1.5.0) (2025-09-04)
+
+
+### Bug Fixes
+
+* temporarily disable Crowdin workflow to unblock deployment ([d50ea45](https://github.com/RC918/morningai-web/commit/d50ea451e85e8d9f04da85e7fe8395d64bf7f5c7))
+
+
+### Features
+
+* implement GeoIP language negotiation and English-first i18n ([1afa0fd](https://github.com/RC918/morningai-web/commit/1afa0fd8ccfd8acbeeae6188df275741078cfa9e))
+
 ## [1.4.1](https://github.com/RC918/morningai-web/compare/v1.4.0...v1.4.1) (2025-09-04)
 
 
