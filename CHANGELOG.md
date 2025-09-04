@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/RC918/morningai-web/compare/v1.2.2...v1.3.0) (2025-09-04)
+
+
+### Features
+
+* **ui:** update DemoBanner and DemoBadge with i18n support ([eb0b69b](https://github.com/RC918/morningai-web/commit/eb0b69bd85aa513c0ce8553d4f4b04223f27a3d7))
+
 ## [1.2.2](https://github.com/RC918/morningai-web/compare/v1.2.1...v1.2.2) (2025-09-04)
 
 
