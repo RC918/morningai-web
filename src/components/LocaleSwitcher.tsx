@@ -10,8 +10,12 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import { analytics } from '@/libs/analytics';
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
 import { AppConfig } from '@/utils/AppConfig';
+
+const LANG_COOKIE = 'lang';
+const ONE_YEAR = 60 * 60 * 24 * 365;
 
 export const LocaleSwitcher = () => {
   const router = useRouter();
@@ -19,6 +23,13 @@ export const LocaleSwitcher = () => {
   const locale = useLocale();
 
   const handleChange = (value: string) => {
+    // 設置語言cookie，讓middleware尊重用戶選擇
+    document.cookie = `${LANG_COOKIE}=${value}; Max-Age=${ONE_YEAR}; Path=/`;
+
+    // 追蹤語言切換事件
+    analytics.trackLanguageSwitch(locale, value);
+
+    // 導航到新語言
     router.push(pathname, { locale: value });
     router.refresh();
   };

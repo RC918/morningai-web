@@ -15,18 +15,27 @@ preserve_hierarchy: true
 
 #
 # Files configuration
+# English is now the source of truth for all translations
 #
 files:
   - source: /src/locales/en.json
 
     #
     # Where translations will be placed
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
+    # Maps to specific language codes for Traditional Chinese and Simplified Chinese
     #
-    translation: '/src/locales/%two_letters_code%.json'
+    translation: '/src/locales/%locale_with_underscore%.json'
 
     #
     # File type
     # e.g. "json"
     #
     type: json
+
+    #
+    # Language mapping for correct file naming
+    #
+    languages_mapping:
+      locale_with_underscore:
+        zh-TW: zh-TW
+        zh-CN: zh-CN
