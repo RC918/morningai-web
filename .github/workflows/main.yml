@@ -1,0 +1,38 @@
+name: GCP Auth Test
+
+on:
+  workflow_dispatch:  # 允許手動觸發
+
+jobs:
+  auth:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 安裝並設定 gcloud，使用 GitHub Secrets 內的專案與金鑰
+      - name: Setup gcloud with service account
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ secrets.GCP_PROJECT_ID }}   # 例如：morning-ai-471211
+          service_account_key: ${{ secrets.GCP_SA_KEY }}  # 服務帳號 JSON 全文
+          export_default_credentials: true
+
+      # 驗證目前登入的身分與專案
+      - name: Verify gcloud auth & project
+        run: |
+          echo "== gcloud auth list =="
+          gcloud auth list
+          echo
+          echo "== gcloud config list project =="
+          gcloud config list project
+          echo
+          echo "== whoami (service account email) =="
+          gcloud auth list --filter=status:ACTIVE --format="value(account)"
+
+      # 額外：確認能呼叫一個公開 API（不需開通額外服務）
+      - name: Simple API call (list available services)
+        run: |
+          echo "== list enabled services (first 5) =="
+          gcloud services list --enabled --format="table(NAME,STATE)" --limit=5 || true
