@@ -15,8 +15,20 @@ jobs:
       - name: Setup gcloud with service account
         uses: google-github-actions/setup-gcloud@v2
         with:
-          project_id: ${{ secrets.GCP_PROJECT_ID }}   # 例如：morning-ai-471211
-          service_account_key: ${{ secrets.GCP_SA_KEY }}  # 服務帳號 JSON 全文
+          project_id: ${{ secrets.GCP_PROJECT_ID }}   # morning-ai-471211
+          service_account_key: ${{ secrets.GCP_SA_KEY }}  # {
+  "type": "service_account",
+  "project_id": "morning-ai-471211",
+  "private_key_id": "4969bb2d078711a0bba865f5acebefbd47575885",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDhm74FZacUe2D0\nYQtSwPFSPdJLekdhANkSC7CPLeGCILl5Do2HhgMPrDSZ7jUZBnaTfdGxTPO0hpcz\nlddMjVj/sDkRg3/T7Z8Hj0kGv0Q9iYamNbSQaknfRpdpm6OtpAwPvOK5riUW6kNS\n2bHBgWFT5oeexHnfC7a3LmNYJqF+RbVsXjXW+m/PKO2Ql4WHb3MCwT2fbszI9HnX\n0bl62LZ6uxQjm9s48GUOc5Hlswg47l83kVRr8MTb+BhHNYxSozl9O8vDq2zGIeiY\noEdSIxOLjVTDyXD3LcmYIDicS8UTr6xcHy8kAI0H1PufUhEzwihHKNW26C+hkb95\nFgMDvxVHAgMBAAECggEAB8uiWrxi9A25UWhjBEZ/cCiLsij0+3CUj4+Q17mtn5ny\n3rB2inbCd1GrdaAp/IXhJgKEctxmVVgLNHCagl4l85vKtQS2r4N36cJ1MwL74CZ2\n3Rpg9VZ+2/Sr+a2zj6Xp9sc/jEvsoyiQD/ZOspF+Y/BEwmMmlOLqOtUjAKJBFURR\nuPdgjBikAqebz9TfnZX0dwWh/VGxvZp6/dWH6dpQnafKD/PBubiQKtRqdMaR6bjy\nWict3kSHwVZnkCGov1kK9SnD/udY9NO5QgyVMg0HyY2XsCOBrlSSpzWDjbQPbgxf\nGk8e2qZx2ELSRulSck6+ncTen05+47ZPcvZzQFcp6QKBgQD91LCIzS/sc7draf97\ndMjFy2YbevenOuCE43um/ipXO1jymfPmeeHl/04O+O6pX+jJ3hek0J74DsJa4+qk\n7l/FgNG07EXZUTZtJN3iuV2HYs8o0RrjCc/hmh3BIMW7LkLOFBvAccLhUBjYYO1t\n09IhxZSODvQY9T6M0ZLsXH1uXwKBgQDjiU9VtfGduIanAvZiidqBBD8nAk3DkG1P\nwQJjRhvrmgDFYBMM1A0YiR4Ekhk/yFznzsKoJsb5E0hKhphprhu8/hW8jWx84jfW\nXpSjCpYyuk6tiGTA7kyOFhH7N4L4pNcPm1yqlO1oCNQ2fgdVBFiaxMngpfY23mIa\nJfgR/EdyGQKBgE33IGpErC2ytWoW2tRu4KRwf2J9eMgy+3eV8AsxEoxMvFt4EkR+\nt3ZP3wgWSihYP0aSIy0Kr2l+DxCf5RjX5y7hDIjH8gR4P4Fyy3yydxn4razZ3apS\n/zlKf00s5c9CvF5UKtoHl1ZhpeAAla0gXPDmoWSpDy0DVz0luj1Dg3t9AoGAS30v\nvAD8I1aoHdrGwZR40NsG1LtX720IRzCCyUrmUnkqjlE8oMHtglljgyKxi86+vA2F\n2WHcG6DBGDClelJQU5h8v6yv9JLc8Zs5dwo5IKVdGweoXbXx4iYCWzVkl3eg/kWO\nLe3xAdYECfwwFI23k8l8LLMDB9sp8wDr15O6ZGkCgYBRYKmJaMe/R+HWOmuk8rbv\njHdXGmyYkzgKEPJ/v+d/D9mMmO5MF+u1diEahmZI9y+MlTCwKOAF1brWmTgpFry3\n7fGbBxnMKxjW70onfmXhWMefui0NHQkkktPUrbuZzIakPFpAliwanGVvldmeEI9v\nScfK2rP9rnAi6NYUgRtp8g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "staging-deploy@morning-ai-471211.iam.gserviceaccount.com",
+  "client_id": "117969695583660858915",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/staging-deploy%40morning-ai-471211.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
           export_default_credentials: true
 
       # 驗證目前登入的身分與專案
